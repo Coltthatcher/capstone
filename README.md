@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Colton Thatcher 
+Project-Name: Workout planner
+Project's Purpose or Goal: The goal of this project is to have a space where you can set workout goals and setup a plan for yourself and how you want workouts to go.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+List the absolute minimum features the project requires to meet this purpose or goal:
+Minimum features.
+Users will be able to add new workout goals to a personalized plan
+there will be a number of workouts provided with pre coded data users can choose from
+Users will be able to create new workouts, edit them and delete them depending on what they are looking for.
+a.k.a Full Crud.
 
-## Available Scripts
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
-In the project directory, you can run:
+Jsx, javaScript, React
+I wish to use the soundcloud API also so users can add certain music to the workout plan. I think that will be more of stretch goal than MVP though.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+Soundcloud API so users can add music to plans.
+Possibly authentication so users can have accounts
+I think pictures for workouts wont be a problem, but possibly adding videos to the site (I have absolutely no idea how to do that so we will see)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+Again Soundcloud API requires an API
+I haven't dabbled to far into react besides what is taught in the lessons. I don't think i will need to use a database but it is possible i may need to go down that route.
 
-### `npm test`
+Is there anything else you'd like your instructor to know?
+Im excited to have creative control over something! I think a lot of the stuff i need to do is going to make more sense to me as I start implementing them.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
