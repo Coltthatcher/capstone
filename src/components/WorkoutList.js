@@ -1,17 +1,38 @@
 import React from "react";
 import Workout from "./Workout";
 
+
+const mainWorkoutList = [
+  {
+    name="Workout name",
+    group="Muscle Group",
+    description="Description of Workout"
+  },
+  {
+    name="Workout name2",
+    group="Muscle Group2",
+    description="Description of Workout2"
+  },
+  {
+    name="Workout name3",
+    group="Muscle Group3",
+    description="Description of Workout3"
+  },
+];
+
+
+
+
 function WorkoutList(){
-  return(
+  return (
     <React.Fragment>
-      <Workout
-        group="Muscle Group"
-        name="Workout name"
-        description="Description of Workout" />
-      <Workout
-        group="Muscle Group2"
-        name="Workout name2"
-        description="Description of Workout2" />
+      <hr/>
+      {mainWorkoutList.map((workout, index) =>
+        <Workout names={workout.name}
+          group={workout.group}
+          description={workout.description}
+          key={index}/>
+      )}
     </React.Fragment>
   );
 }
