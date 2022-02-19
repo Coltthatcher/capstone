@@ -3,6 +3,7 @@ Project-Name: Workout planner
 Project's Purpose or Goal: The goal of this project is to have a space where you can set workout goals and setup a plan for yourself and how you want workouts to go.
 
 List the absolute minimum features the project requires to meet this purpose or goal:
+
 Minimum features.
 Users will be able to add new workout goals to a personalized plan
 there will be a number of workouts provided with pre coded data users can choose from
@@ -16,6 +17,7 @@ I wish to use the soundcloud API also so users can add certain music to the work
 
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+
 Soundcloud API so users can add music to plans.
 Possibly authentication so users can have accounts
 I think pictures for workouts wont be a problem, but possibly adding videos to the site (I have absolutely no idea how to do that so we will see)
@@ -42,13 +44,27 @@ Nesting components is a big part of developing with React. Components can be par
 Small, modular components are the way to go. This makes our code easier to understand and allows us to separate presentational concerns.
 
 
+NOTES on State:
+state is anything that will be stored and changed.
+adding new workouts is a change of state.
+
+State can be changed props can not (at least components can not change the its props)
+
+only define components as classes if it 100% requires state.
+
+Local state will live inside a single component so only in the component that is using it.
+
+
 
 
 ______________________________________________________________________________________________________________________
 
-CAPSTONE LOG (for Research Recording )
+CAPSTONE LOG (for Research Recording ) see above (NOTES FOR CAPSTONE STUDY AND PURPOSE.) for notes taken during the study period.
 
-
+Starting at 3:14-3:25 educating myself on state more, to further plan how my project will interact component wise.
+start reviewing these lessons.
+https://www.learnhowtoprogram.com/react/react-fundamentals/introduction-to-state
+https://www.learnhowtoprogram.com/react/react-fundamentals/planning-our-application-part-2
 
 
 
