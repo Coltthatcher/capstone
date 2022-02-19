@@ -1,10 +1,11 @@
+import React from 'react';
+import Header from './Header';
 
-import './App.css';
 
 function App() {
   return (
   <React.Fragment>
-    <h1>Workout planner</h1>
+    <Header />
   </React.Fragment>
   );
 }
