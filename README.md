@@ -44,9 +44,25 @@ Small, modular components are the way to go. This makes our code easier to under
 
 
 
-____________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________
 
-CAPSTONE LOG
+CAPSTONE LOG (for Research Recording )
 
 
-Have Spent time Updating my DRAWIO (not sure if you can see those in commits) file from 2:12 - 
+
+
+
+___________________________________________________________
+                    TODOLIST
+
+1) Get Base site running.
+2) Have seeded workout already so users can choose a list. without having to create any work outs.
+3)  Have crud ability so users can add new workouts.
+4)  Add edit ability to workouts.
+5) Add delete ability to workouts.
+6) Create a personal plan section.
+7)Users can add a personalized list of workouts in a workout plan section.
+8)Users can access the soundcloud API to add mixes to their personal workout page.
+9) figure out what the heck is going on with using the soundcloud API
+10) have the music section be interwoven with the personal page. 
+11) styling (not sure on when i should try implementing)
