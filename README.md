@@ -27,5 +27,23 @@ I haven't dabbled to far into react besides what is taught in the lessons. I don
 Is there anything else you'd like your instructor to know?
 Im excited to have creative control over something! I think a lot of the stuff i need to do is going to make more sense to me as I start implementing them.
 
+____________________________________________________________________________________________________________________________________
+
+NOTES FOR CAPSTONE STUDY AND PURPOSE.
 
 
+
+Function components are literally functions that returns a React element. They can't store or alter state. We will mostly write function components.
+
+Class components are classes that extend React's Component class. They must always include a render() method that will return a React element. They are used when we need state.
+
+Nesting components is a big part of developing with React. Components can be parents, siblings, children or any combination thereof.
+
+Small, modular components are the way to go. This makes our code easier to understand and allows us to separate presentational concerns.
+
+
+
+
+____________________________________________________________________________________________________________________________________
+
+CAPSTONE LOG
