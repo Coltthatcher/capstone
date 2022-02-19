@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from './Header';
-import WorkoutList from './WorkoutList';
+import WorkoutControl from './WorkoutControl';
+
 
 
 function App() {
   return (
   <React.Fragment>
     <Header />
-    <WorkoutList />
+    <WorkoutControl />
   </React.Fragment>
   );
 }

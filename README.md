@@ -54,6 +54,9 @@ only define components as classes if it 100% requires state.
 
 Local state will live inside a single component so only in the component that is using it.
 
+Workout Control will be parent component of everything
+it will need a class component. 
+
 
 
 
