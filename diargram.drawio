@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="-IbDgTEcw5LaZSZq4VB-" name="Page-1">
-        <mxGraphModel dx="707" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="707" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -24,6 +24,21 @@
                 </mxCell>
                 <mxCell id="9" value="ADD WORKOUT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="305" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="40" width="560" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Workout control" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="940" y="70" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="WORKOUT LIST" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="735" y="90" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="NEWWORKOUTFORM" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="90" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="YOURWORKOUTLIST" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="90" width="140" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

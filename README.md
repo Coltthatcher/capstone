@@ -47,3 +47,6 @@ Small, modular components are the way to go. This makes our code easier to under
 ____________________________________________________________________________________________________________________________________
 
 CAPSTONE LOG
+
+
+Have Spent time Updating my DRAWIO (not sure if you can see those in commits) file from 2:12 - 
