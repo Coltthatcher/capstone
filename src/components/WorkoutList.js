@@ -28,7 +28,7 @@ function WorkoutList(){
     <React.Fragment>
       <hr/>
       {mainWorkoutList.map((workout, index) =>
-        <Workout names={workout.name}
+        <Workout name={workout.name}
           group={workout.group}
           description={workout.description}
           key={index}/>

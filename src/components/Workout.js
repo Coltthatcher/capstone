@@ -4,7 +4,8 @@ import PropTypes from "prop-types";
 function Workout(props){
   return(
   <React.Fragment>
-    <h3>{props.group} - {props.names}</h3>
+    <h1>{props.name}</h1>
+    <h2>muscle group: {props.group}</h2>
     <p>{props.description}</p>
     <hr/>
   </React.Fragment>
