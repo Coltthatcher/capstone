@@ -8,7 +8,8 @@ class WorkoutControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      formVisibleOnPage: false
+      formVisibleOnPage: false,
+      mainWorkoutList: []
     };
   }
 
@@ -26,7 +27,7 @@ class WorkoutControl extends React.Component {
       currentlyVisibleState = <NewWorkoutForm />
       buttonText = "Return to Workout center";
   } else {
-    currentlyVisibleState = <WorkoutList />
+    currentlyVisibleState = <WorkoutList workoutlist={this.state.mainWorkoutList} />
     buttonText = "Add Workout";
     
   }
