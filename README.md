@@ -29,7 +29,7 @@ I haven't dabbled to far into react besides what is taught in the lessons. I don
 Is there anything else you'd like your instructor to know?
 Im excited to have creative control over something! I think a lot of the stuff i need to do is going to make more sense to me as I start implementing them.
 
-____________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
 
 NOTES FOR CAPSTONE STUDY AND PURPOSE.
 
