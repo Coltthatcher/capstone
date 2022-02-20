@@ -13,23 +13,27 @@ class WorkoutControl extends React.Component {
   }
 
   handleClick = () => {
-    this.setState({formVisibleOnPage: true});
+    this.setState(prevState => ({
+      formVisibleOnPage: !prevState.formVisibleOnPage
+    }));
   }
 
 
   render(){
     let currentlyVisibleState = null;
-    let addWorkoutButton = null;
+    let buttonText = null;
     if (this.state.formVisibleOnPage) {
       currentlyVisibleState = <NewWorkoutForm />
+      buttonText = "Return to Workout center";
   } else {
     currentlyVisibleState = <WorkoutList />
-    addWorkoutButton = <button onClick={this.handleClick}>Add New Workout</button>
+    buttonText = "Add Workout";
+    
   }
     return(
       <React.Fragment>
         {currentlyVisibleState}
-        {addWorkoutButton}
+        <button onClick={this.handleClick}>{buttonText}</button>
       </React.Fragment>
     );
   }
