@@ -70,6 +70,11 @@ https://www.learnhowtoprogram.com/react/react-fundamentals/introduction-to-state
 https://www.learnhowtoprogram.com/react/react-fundamentals/planning-our-application-part-2
 
 
+started to plan out authentication with react took a break in between started watching video around 5:30 took a break after 5:50 started watching again around 9pm total amount of work 1 and half hour ish.
+watched this video 
+
+https://video.search.yahoo.com/search/video;_ylt=Awr9ImFOmBFiA6oAGHBXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=planning+out+your+react+website&fr2=piv-web&type=E211US714G0&fr=mcafee#id=5&vid=a62f4df2c49e702873a02e4f27fdc67a&action=view
+
 
 ___________________________________________________________
                     TODOLIST
