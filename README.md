@@ -62,7 +62,7 @@ it will need a class component.
 
 ______________________________________________________________________________________________________________________
 
-CAPSTONE LOG (for Research Recording ) see above (NOTES FOR CAPSTONE STUDY AND PURPOSE.) for notes taken during the study period.
+CAPSTONE LOG (for Research Recording )
 
 Starting at 3:14-3:25 educating myself on state more, to further plan how my project will interact component wise.
 start reviewing these lessons.
