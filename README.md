@@ -80,7 +80,9 @@ doing extra study to see if I wanna end implementing other features and comparin
 
 
 Redux research
-
+Understanding Redux and How it is Used in React Applications
+https://www.youtube.com/watch?v=Eop3E4anpL0
+started 7:21 finished with some breaks 8:32
 
 React sql research
 
