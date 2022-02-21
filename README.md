@@ -75,6 +75,10 @@ watched this video
 
 https://video.search.yahoo.com/search/video;_ylt=Awr9ImFOmBFiA6oAGHBXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=planning+out+your+react+website&fr2=piv-web&type=E211US714G0&fr=mcafee#id=5&vid=a62f4df2c49e702873a02e4f27fdc67a&action=view
 
+this video from starting seems very insightful, going to watch through. (come back to this link for study)
+https://www.youtube.com/watch?v=LlvBzyy-558
+React Hooks Course - All React Hooks Explained
+started 8:50 - 10:00
 
 doing extra study to see if I wanna end implementing other features and comparing that to if I will have enough time.
 
