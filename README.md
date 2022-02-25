@@ -93,7 +93,8 @@ React sql research
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
-
+started at 11:00 tutorial for exactly what I'm looking for. Implementing sound cloud API.finished 11:28. (COME BACK TO THIS VIDEO WHEN IMPLEMENTING)
+https://www.youtube.com/watch?v=fVcz-1rVQcs
 
 ___________________________________________________________
                     TODOLIST
