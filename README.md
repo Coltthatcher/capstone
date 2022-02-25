@@ -89,7 +89,8 @@ https://www.youtube.com/watch?v=Eop3E4anpL0
 started 7:21 finished with some breaks 8:32
 
 React sql research
-
+Thinking at this point i will need to implement CRUD and in order to do so firebase will be the best way of accomplishing that. started at 11:40 finished 12:21
+https://www.youtube.com/watch?v=jCY6DH8F4oc
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
