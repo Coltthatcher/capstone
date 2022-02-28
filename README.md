@@ -7,14 +7,14 @@ List the absolute minimum features the project requires to meet this purpose or 
 Minimum features.
 Users will be able to add new workout goals to a personalized plan
 there will be a number of workouts provided with pre coded data users can choose from
-
-Users will be able to create new workouts, edit them and delete them depending on what they are looking for.
-a.k.a Full Crud.
+My MVP goal is to only keep on the data till the browser is reloaded. So there will be a set number of workouts hardcoded into the page. my stretch goals will include adding a database with firebase.
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
-Jsx, javaScript, React
+Jsx, javaScript, React, 
 I wish to use the soundcloud API also so users can add certain music to the workout plan. I think that will be more of stretch goal than MVP though.
+
+
 
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
@@ -25,7 +25,9 @@ I think pictures for workouts wont be a problem, but possibly adding videos to t
 
 What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 Again Soundcloud API requires an API
-I haven't dabbled to far into react besides what is taught in the lessons. I don't think i will need to use a database but it is possible i may need to go down that route.
+I haven't dabbled to far into react besides what is taught in the lessons. 
+firebase
+I've been looking into firebase quite a bit and I think implanting that will make the product able to use full CRUD which is now my stretch goal.
 
 Is there anything else you'd like your instructor to know?
 Im excited to have creative control over something! I think a lot of the stuff i need to do is going to make more sense to me as I start implementing them.
