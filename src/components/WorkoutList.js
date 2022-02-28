@@ -1,42 +1,30 @@
 import React from "react";
 import Workout from "./Workout";
-
-
-const mainWorkoutList = [
-  {
-    name:"Workout name",
-    group:"Muscle Group",
-    description:"Description of Workout"
-  },
-  {
-    name:"Workout name2",
-    group:"Muscle Group2",
-    description:"Description of Workout2"
-  },
-  {
-    name:"Workout name3",
-    group:"Muscle Group3",
-    description:"Description of Workout3"
-  },
-];
+import PropTypes from "prop-types";
 
 
 
 
-function WorkoutList(){
+function WorkoutList(props){
   return (
     <React.Fragment>
       <hr/>
-      {mainWorkoutList.map((workout) =>
+      {props.workoutList.map((workout) =>
         <Workout 
           handleChangingSelectedWorkout={ props.handleChangingSelectedWorkout }
           name={workout.name}
           group={workout.group}
           description={workout.description}
-          key={index}/>
+          id={workout.id}
+          key={workout.id}/>
       )}
     </React.Fragment>
   );
 }
+
+WorkoutList.propTypes = {
+  workoutList: PropTypes.array,
+  onWorkoutSelection: PropTypes.func
+};
 
 export default WorkoutList;

@@ -1,6 +1,7 @@
 import React from "react"
 import NewWorkoutForm from "./NewWorkoutForm";
 import WorkoutList from "./WorkoutList";
+import WorkoutDetail from "./WorkoutDetail";
 
 
 class WorkoutControl extends React.Component {
@@ -9,7 +10,8 @@ class WorkoutControl extends React.Component {
     super(props);
     this.state = {
       formVisibleOnPage: false,
-      mainWorkoutList: []
+      mainWorkoutList: [],
+      selectedWorkout: null
     };
   }
 
@@ -19,15 +21,30 @@ class WorkoutControl extends React.Component {
     }));
   }
 
+  handleAddingNewWorkoutToList = (newWorkout) => {
+    const newMainWorkoutList = this.state.mainWorkoutList.concat(newWorkout);
+    this.setState({mainWorkoutList: newMainWorkoutList,
+                                  formVisibleOnPage: false});
+    }
+
+    handleChangingSelectedWorkout = (id) => {
+      const selectedWorkout = this.state.mainWorkoutList.filter(workout => workout.id === id);
+      this.setState({selectedWorkout: selectedWorkout});
+    }
 
   render(){
     let currentlyVisibleState = null;
     let buttonText = null;
-    if (this.state.formVisibleOnPage) {
+
+    if (this.state.selectedWorkout != null) {
+      currentlyVisibleState = <WorkoutDetail workout = {this.state.selectedWorkout} />
+      buttonText= "Return to Workout center";
+
+    } else if  (this.state.formVisibleOnPage) {
       currentlyVisibleState = <NewWorkoutForm />
       buttonText = "Return to Workout center";
   } else {
-    currentlyVisibleState = <WorkoutList workoutlist={this.state.mainWorkoutList} />
+    currentlyVisibleState = <WorkoutList workoutList={this.state.mainWorkoutList} />
     buttonText = "Add Workout";
     
   }
