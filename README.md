@@ -92,6 +92,12 @@ React sql research
 Thinking at this point i will need to implement CRUD and in order to do so firebase will be the best way of accomplishing that. started at 11:40 finished 12:21
 https://www.youtube.com/watch?v=jCY6DH8F4oc
 
+Watching a video weather authentication is something i want to include. started 12:26 finished 12:50
+https://www.youtube.com/watch?v=9bXhf_TELP4&t=6s
+
+starting playlist, will need to review as i add firebase to website started 3:50 paused 4:15 
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb
+
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
 started at 11:00 tutorial for exactly what I'm looking for. Implementing sound cloud API.finished 11:28. (COME BACK TO THIS VIDEO WHEN IMPLEMENTING)
