@@ -7,6 +7,7 @@ List the absolute minimum features the project requires to meet this purpose or 
 Minimum features.
 Users will be able to add new workout goals to a personalized plan
 there will be a number of workouts provided with pre coded data users can choose from
+
 Users will be able to create new workouts, edit them and delete them depending on what they are looking for.
 a.k.a Full Crud.
 
@@ -88,7 +89,7 @@ Understanding Redux and How it is Used in React Applications
 https://www.youtube.com/watch?v=Eop3E4anpL0
 started 7:21 finished with some breaks 8:32
 
-React sql research
+React database research
 Thinking at this point i will need to implement CRUD and in order to do so firebase will be the best way of accomplishing that. started at 11:40 finished 12:21
 https://www.youtube.com/watch?v=jCY6DH8F4oc
 
@@ -105,7 +106,10 @@ finished 5:32
 part five started 5:41 finished 5:55
 https://www.youtube.com/watch?v=s1frrNxq4js&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=5
 
-
+part six and seven started 5:56 finished 6:10
+https://www.youtube.com/watch?v=rfQ2F8kQEUg&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=6
+part seven
+https://www.youtube.com/watch?v=gEaY2GZMino&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=7
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
