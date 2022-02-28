@@ -27,7 +27,7 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 Again Soundcloud API requires an API
 I haven't dabbled to far into react besides what is taught in the lessons. 
 firebase
-I've been looking into firebase quite a bit and I think implanting that will make the product able to use full CRUD which is now my stretch goal.
+I've been looking into firebase quite a bit and I think implanting that will make the product able to use full CRUD which is now my stretch goal. I think if I can get the main goal up and running. I can mess around with adding a database so user can store information and possibly come back to where ever the site is hosted for them. So it can actually have some real world use.
 
 Is there anything else you'd like your instructor to know?
 Im excited to have creative control over something! I think a lot of the stuff i need to do is going to make more sense to me as I start implementing them.
