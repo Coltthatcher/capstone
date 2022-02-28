@@ -6,7 +6,7 @@ List the absolute minimum features the project requires to meet this purpose or 
 
 Minimum features.
 Users will be able to add new workout goals to a personalized plan
-there will be a number of workouts provided with pre coded data users can choose from
+there will be a number of workouts provided with pre coded data users can choose from and add to a workout plan page.
 My MVP goal is to only keep on the data till the browser is reloaded. So there will be a set number of workouts hardcoded into the page. my stretch goals will include adding a database with firebase.
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
