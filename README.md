@@ -95,7 +95,7 @@ https://www.youtube.com/watch?v=jCY6DH8F4oc
 Watching a video weather authentication is something i want to include. started 12:26 finished 12:50
 https://www.youtube.com/watch?v=9bXhf_TELP4&t=6s
 
-starting playlist, will need to review as i add firebase to website started 3:50 paused 4:15 
+starting playlist, will need to review as i add firebase to website started 3:50 paused 4:15 resumed 5:20
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
