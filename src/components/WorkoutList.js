@@ -27,8 +27,10 @@ function WorkoutList(){
   return (
     <React.Fragment>
       <hr/>
-      {mainWorkoutList.map((workout, index) =>
-        <Workout name={workout.name}
+      {mainWorkoutList.map((workout) =>
+        <Workout 
+          handleChangingSelectedWorkout={ props.handleChangingSelectedWorkout }
+          name={workout.name}
           group={workout.group}
           description={workout.description}
           key={index}/>

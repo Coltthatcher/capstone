@@ -11,7 +11,7 @@ My MVP goal is to only keep on the data till the browser is reloaded. So there w
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
-Jsx, javaScript, React, 
+Jsx, javaScript, React, (stretch goals API and firebase)
 I wish to use the soundcloud API also so users can add certain music to the workout plan. I think that will be more of stretch goal than MVP though.
 
 
