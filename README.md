@@ -98,6 +98,15 @@ https://www.youtube.com/watch?v=9bXhf_TELP4&t=6s
 starting playlist, will need to review as i add firebase to website started 3:50 paused 4:15 resumed 5:20
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb
 
+5:20 started part four
+https://www.youtube.com/watch?v=2yNyiW_41H8&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=4
+finished 5:32
+
+part five started 5:41 finished 5:55
+https://www.youtube.com/watch?v=s1frrNxq4js&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=5
+
+
+
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
 started at 11:00 tutorial for exactly what I'm looking for. Implementing sound cloud API.finished 11:28. (COME BACK TO THIS VIDEO WHEN IMPLEMENTING)
