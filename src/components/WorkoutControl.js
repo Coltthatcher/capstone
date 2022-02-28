@@ -16,10 +16,17 @@ class WorkoutControl extends React.Component {
   }
 
   handleClick = () => {
+    if (this.state.selectedWorkout != null) {
+      this.setState({
+        formVisibleOnPage: false,
+        selectedWorkout: null
+      });
+    } else {
     this.setState(prevState => ({
       formVisibleOnPage: !prevState.formVisibleOnPage
     }));
   }
+}
 
   handleAddingNewWorkoutToList = (newWorkout) => {
     const newMainWorkoutList = this.state.mainWorkoutList.concat(newWorkout);

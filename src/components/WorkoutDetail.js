@@ -5,13 +5,16 @@ import PropTypes from "prop-types";
 function WorkoutDetail(props){
   const { workout } = props;
 
+  const selectedWorkout = workout[0];
+
+  console.log(selectedWorkout)
 
   return (
     <React.Fragment>
       <h1>WorkoutDetail</h1>
-      <h3><em>{workout.name}</em></h3>
-      <h4>{workout.group}</h4>
-      <p>{workout.description}</p>
+      <h3><em>{selectedWorkout.name}</em></h3>
+      <h4>{selectedWorkout.group}</h4>
+      <p>{selectedWorkout.description}</p>
       <hr/> 
     </React.Fragment>
   )

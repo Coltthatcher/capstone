@@ -1,10 +1,13 @@
 import React from "react";
 import { v4 } from  "uuid";
+import PropTypes from "prop-types";
+
 
 function NewWorkoutForm(props){
   
   function handleNewWorkoutFormSubmission(event) {
     event.preventDefault();
+    props.onNewWorkoutCreation({name: event.target.name.value, group: event.target.group.value, description: event.target.description.value, id: v4()})
   }
   
   return (
@@ -28,5 +31,9 @@ function NewWorkoutForm(props){
   )
 
 }
+
+NewWorkoutForm.propTypes = {
+  onNewWorkoutCreation: PropTypes.func
+};
 
 export default NewWorkoutForm;
