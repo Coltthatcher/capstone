@@ -39,6 +39,8 @@ class WorkoutControl extends React.Component {
       this.setState({selectedWorkout: selectedWorkout});
     }
 
+    
+
   render(){
     let currentlyVisibleState = null;
     let buttonText = null;
@@ -48,12 +50,12 @@ class WorkoutControl extends React.Component {
       buttonText= "Return to Workout center";
 
     } else if  (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <NewWorkoutForm />
+      currentlyVisibleState = <NewWorkoutForm onNewWorkoutCreation={this.handleAddingNewWorkoutToList}/>
       buttonText = "Return to Workout center";
-  } else {
-    currentlyVisibleState = <WorkoutList workoutList={this.state.mainWorkoutList} />
-    buttonText = "Add Workout";
-    
+    } else {
+      currentlyVisibleState = <WorkoutList workoutList={this.state.mainWorkoutList} handleChangingSelectedWorkout={this.handleChangingSelectedWorkout} />
+      buttonText = "Add Workout";
+      
   }
     return(
       <React.Fragment>

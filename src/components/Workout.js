@@ -1,13 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Workout(props){
+function Workout({
+  name,
+  group,
+  description,
+  handleChangingSelectedWorkout,
+  id
+}){
+  
   return(
   <React.Fragment>
-    <h1>{props.name}</h1>
-    <h2>muscle group: {props.group}</h2>
-    <p>{props.description}</p>
+    <div onClick={() => handleChangingSelectedWorkout(id)}>
+    <h1>{name}</h1>
+    <h2>muscle group: {group}</h2>
+    <p>{description}</p>
     <hr/>
+    </div>
   </React.Fragment>
   );
 }
@@ -17,7 +26,9 @@ function Workout(props){
 Workout.propTypes = {
   name: PropTypes.string,
   group: PropTypes.string,
-  description: PropTypes.string
+  description: PropTypes.string,
+  id: PropTypes.string,
+  handleWhenWorkoutClicked: PropTypes.func
 };
 
 export default Workout;
