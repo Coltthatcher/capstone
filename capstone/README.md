@@ -89,8 +89,8 @@ started 8:50 - 10:00
 doing extra study to see if I wanna end implementing other features and comparing that to if I will have enough time.
 
 
-Honestly reconsidering building the structure of my website from scratch, there seem to be easier was in react then i am going about things. Hooks and routers seem like a new route i would like to be going.
-started 6:40 break at 8:26
+Honestly reconsidering building the structure of my website from scratch, there seem to be easier was in react then i am going about things. 
+started 6:40 done at 8:26
 https://www.youtube.com/watch?v=3nLTB_E6XAM&list=RDCMUCsKsymTY_4BYR-wytLjex7A&start_radio=1&rv=3nLTB_E6XAM&t=3
 
 Redux research
