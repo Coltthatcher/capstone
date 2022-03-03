@@ -66,7 +66,7 @@ it will need a class component.
 
 
 
-______________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________,
 
 CAPSTONE LOG (for Research Recording )
 
@@ -92,6 +92,7 @@ doing extra study to see if I wanna end implementing other features and comparin
 Honestly reconsidering building the structure of my website from scratch, there seem to be easier was in react then i am going about things. 
 started 6:40 done at 8:26
 https://www.youtube.com/watch?v=3nLTB_E6XAM&list=RDCMUCsKsymTY_4BYR-wytLjex7A&start_radio=1&rv=3nLTB_E6XAM&t=3
+started first part again. Watched from 7:20 break at 7;47
 
 Redux research
 Understanding Redux and How it is Used in React Applications
