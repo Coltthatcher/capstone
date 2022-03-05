@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MdDirectionsRun } from "react-icons/md";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Button } from './Button';
 import './Navbar.css';
+import { IconContext } from 'react-icons/lib' 
+
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -22,11 +24,16 @@ function Navbar() {
     }
   }
 
+useEffect(() => {
+  showButton();
+}, []);
+
   return (
     <React.Fragment>
+      <IconContext.Provider value={{ color: '#fff'}}>
       <div className='navbar'>
         <div className='navbar-container container'>
-          <Link to='/' className='navbar-logo'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <MdDirectionsRun className='navbar-icon' />
             Goal
           </Link>
@@ -35,23 +42,23 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
-              <Link to ='/' className='nav-links'>
+              <Link to ='/' className='nav-links'onClick={closeMobileMenu} >
                 Homepage
               </Link>
             </li>
             <li className="nav-item">
-              <Link to ='/services' className='nav-links'>
+              <Link to ='/services' className='nav-links'onClick={closeMobileMenu} >
                 Workout Plans
               </Link>
             </li>
             <li className="nav-item">
-              <Link to ='/products' className='nav-links'>
+              <Link to ='/products' className='nav-links'onClick={closeMobileMenu} >
                 Pricing
               </Link>
             </li>
             <li className='nav-btn'>
               {button ? (
-                <Link to='/sign-up' className='btn-link'>
+                <Link to='/sign-up' className='btn-link'onClick={closeMobileMenu} >
                   <Button buttonStyle='btn--outline'>Start Goals</Button>
                 </Link>
               ): (
@@ -65,6 +72,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
+      </IconContext.Provider>
     </React.Fragment>
   )
 }
