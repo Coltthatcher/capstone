@@ -66,74 +66,90 @@ it will need a class component.
 
 
 
-______________________________________________________________________________________________________________________,
+______________________________________________________________________________________________________________________
 
 CAPSTONE LOG (for Research Recording )
 
-Starting at 3:14-3:25 educating myself on state more, to further plan how my project will interact component wise.
+Date not sure forgot to list
 start reviewing these lessons.
 https://www.learnhowtoprogram.com/react/react-fundamentals/introduction-to-state
 https://www.learnhowtoprogram.com/react/react-fundamentals/planning-our-application-part-2
+Starting at 3:14pm - 5 pm: educating myself on state more, to further plan how my project will interact component wise.
 
-
-started to plan out authentication with react took a break in between started watching video around 5:30 took a break after 5:50 started watching again around 9pm total amount of work 1 and half hour ish.
-watched this video 
+Date not sure forgot to list
+5:30pm - 5:50 pm started to plan out authentication with react
+9pm - 9:45 continued to watch video
 
 https://video.search.yahoo.com/search/video;_ylt=Awr9ImFOmBFiA6oAGHBXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=planning+out+your+react+website&fr2=piv-web&type=E211US714G0&fr=mcafee#id=5&vid=a62f4df2c49e702873a02e4f27fdc67a&action=view
 
+Date not sure forgot to list
 this video from starting seems very insightful, going to watch through. (come back to this link for study)
 https://www.youtube.com/watch?v=LlvBzyy-558
 React Hooks Course - All React Hooks Explained
-started 8:50 - 10:00
+started 8:50 - 10:00pm: finished video at 10pm
 
 doing extra study to see if I wanna end implementing other features and comparing that to if I will have enough time.
 
 
-Honestly reconsidering building the structure of my website from scratch, there seem to be easier was in react then i am going about things. 
-started 6:40 done at 8:26
+Honestly reconsidering building the structure of my website from scratch, there seem to be easier was in react then I am going about things. 
+
+Date not sure forgot to list
+started 6:40 - 8:26:
+Date not sure forgot to list 
+7:20 - 7:47:started first part again.
 https://www.youtube.com/watch?v=3nLTB_E6XAM&list=RDCMUCsKsymTY_4BYR-wytLjex7A&start_radio=1&rv=3nLTB_E6XAM&t=3
-started first part again. Watched from 7:20 break at 7;47
+
 
 Redux research
 Understanding Redux and How it is Used in React Applications
 https://www.youtube.com/watch?v=Eop3E4anpL0
-started 7:21 finished with some breaks 8:32
+Date not sure forgot to list
+7:21 - 8:32: watched video
 
 React database research
-Thinking at this point i will need to implement CRUD and in order to do so firebase will be the best way of accomplishing that. started at 11:40 finished 12:21
+Thinking at this point i will need to implement CRUD and in order to do so firebase will be the best way of accomplishing that. 
 https://www.youtube.com/watch?v=jCY6DH8F4oc
+Date not sure forgot to list
+11:40-12:21: watched the video
 
-Watching a video weather authentication is something i want to include. started 12:26 finished 12:50
+
+Watching a video weather authentication is something i want to include.
 https://www.youtube.com/watch?v=9bXhf_TELP4&t=6s
+Date not sure forgot to list
+started 12:26 - 12:50: watched video on authentication 
+
+
 
 starting playlist, will need to review as i add firebase to website started 3:50 paused 4:15 resumed 5:20
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb
+3:50 -4:15: watched video took break
 
-5:20 started part four
+
+02/29
 https://www.youtube.com/watch?v=2yNyiW_41H8&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=4
-finished 5:32
+5:20 - 5:32: watched video
 
-part five started 5:41 finished 5:55
+02/29
 https://www.youtube.com/watch?v=s1frrNxq4js&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=5
+5:41 - 5:55: part 5 started.
 
-part six and seven started 5:56 finished 6:10
+02/29
 https://www.youtube.com/watch?v=rfQ2F8kQEUg&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=6
-part seven
 https://www.youtube.com/watch?v=gEaY2GZMino&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=7
+5:56 - 6:10 : part six and seven started and finished 
+
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
-started at 11:00 tutorial for exactly what I'm looking for. Implementing sound cloud API.finished 11:28. (COME BACK TO THIS VIDEO WHEN IMPLEMENTING)
-https://www.youtube.com/watch?v=fVcz-1rVQcs
 
+https://www.youtube.com/watch?v=fVcz-1rVQcs
+02/29
+11:00 -11:28 :started at 11:00 tutorial for exactly what I'm looking for. Implementing sound cloud API.finished 11:28. (COME BACK TO THIS VIDEO WHEN IMPLEMENTING)
 ___________________________________________________________
                     TODOLIST
 
 1) Get Base site running.
 2) Have seeded workout already so users can choose a list. without having to create any work outs.
-3)  Have crud ability so users can add new workouts.
-4)  Add edit ability to workouts.
-5) Add delete ability to workouts.
 6) Create a personal plan section.
 7)Users can add a personalized list of workouts in a workout plan section.
 8)Users can access the soundcloud API to add mixes to their personal workout page.
