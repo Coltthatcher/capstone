@@ -42,17 +42,17 @@ useEffect(() => {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
-              <Link to ='/' className='nav-links'onClick={closeMobileMenu} >
+              <Link to ='/' className='nav-links' onClick={closeMobileMenu} >
                 Homepage
               </Link>
             </li>
             <li className="nav-item">
-              <Link to ='/services' className='nav-links'onClick={closeMobileMenu} >
+              <Link to ='/services' className='nav-links' onClick={closeMobileMenu} >
                 Workout Plans
               </Link>
             </li>
             <li className="nav-item">
-              <Link to ='/products' className='nav-links'onClick={closeMobileMenu} >
+              <Link to ='/products' className='nav-links' onClick={closeMobileMenu} >
                 Pricing
               </Link>
             </li>
@@ -62,7 +62,7 @@ useEffect(() => {
                   <Button buttonStyle='btn--outline'>Start Goals</Button>
                 </Link>
               ): (
-                <Link to='/sign-up' className='btn-link'onClick={closeMobileMenu} >
+                <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu} >
                   <Button buttonStyle='btn--outline'
                           buttonSize='btn--mobile'
                   >Sign Up</Button>
