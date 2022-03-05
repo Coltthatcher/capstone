@@ -19,11 +19,17 @@ function HomeSection({
               <p className={lightTextDesc ? 'home__home-subtitle' : 'home__home-subtitle dark'}>
                 {description}</p>
                 <Link to="/sign-up">
-                  <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
+                  <Button buttonSize='btn--wide' buttonColor='blue'>
+                    {buttonLabel}</Button>
                 </Link>
             </div>
           </div>
-          
+          <div className='col'>
+            <div className='home_home-img-wrapper'>
+              <img src={img} alt={alt} className='home_home-img' />
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
