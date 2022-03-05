@@ -16,9 +16,14 @@ function HomeSection({
             <div className='home__home-text-wrapper'>
               <div className='top-line'>{topLine}</div>
               <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-              <p></p>
+              <p className={lightTextDesc ? 'home__home-subtitle' : 'home__home-subtitle dark'}>
+                {description}</p>
+                <Link to="/sign-up">
+                  <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
+                </Link>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
