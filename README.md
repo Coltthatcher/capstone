@@ -136,7 +136,13 @@ https://www.youtube.com/watch?v=s1frrNxq4js&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWU
 02/29
 https://www.youtube.com/watch?v=rfQ2F8kQEUg&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=6
 https://www.youtube.com/watch?v=gEaY2GZMino&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=7
-5:56 - 6:10 : part six and seven started and finished 
+5:56 - 6:10 : part six and seven started and finished
+
+03/5
+https://www.youtube.com/watch?v=uvB4cUi4RrI
+video to help me get more pages added
+started 
+3:58 - 4:15: thinking about interaction with my pages
 
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
@@ -148,7 +154,7 @@ https://www.youtube.com/watch?v=fVcz-1rVQcs
 ___________________________________________________________
                     TODOLIST
 
-1) Get Base site running.
+1) Get Base site running. 95% percent done.
 2) Have seeded workout already so users can choose a list. without having to create any work outs.
 6) Create a personal plan section.
 7)Users can add a personalized list of workouts in a workout plan section.
