@@ -162,8 +162,8 @@ started 12:26 - 12:50: watched video on authentication
 starting playlist, will need to review as i add firebase to website started 3:50 paused 4:15 resumed 5:20
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb
 3:50 -4:15: watched video took break
-
-
+|area bellow playlist
+|
 02/29
 https://www.youtube.com/watch?v=2yNyiW_41H8&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=4
 5:20 - 5:32: watched video
@@ -185,6 +185,8 @@ started
 
 03/5
 https://www.youtube.com/watch?v=I2UBjN5ER4s
+started 
+5:28 -  :watched a tutorial hoping for insight on how to add my pages components 
 
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
