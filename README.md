@@ -186,7 +186,8 @@ started
 03/5
 https://www.youtube.com/watch?v=I2UBjN5ER4s
 started 
-5:28 -  :watched a tutorial hoping for insight on how to add my pages components 
+5:28 -6:18 :watched a tutorial hoping for insight on how to add my pages components took break in between
+7:00 - 7:36 finished video
 
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
