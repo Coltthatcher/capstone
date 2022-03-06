@@ -15,7 +15,7 @@ export const homeObjTwo={
   lightBg:false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'SoundCloud Interwoven',
+  topLine: 'Choose from Top tier trainers',
   headline: 'Unlimited Workouts to help your goal',
   description: 'Get acess to thousands of workouts, full pricing allows you full acsess',
   buttonLabel: "Get on your Goals",

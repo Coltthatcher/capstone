@@ -34,6 +34,45 @@ I've been looking into firebase quite a bit and I think implanting that will mak
 
 Is there anything else you'd like your instructor to know?
 Im excited to have creative control over something! I think a lot of the stuff i need to do is going to make more sense to me as I start implementing them.
+////////////
+
+
+Project-Name: Workout planner
+Project's Purpose or Goal: An app meant for pay, will have seeded workouts where one can make a personal workout list.
+
+List the absolute minimum features the project requires to meet this purpose or goal:
+
+Minimum features.
+A webpage showing app details and how to sign up so you can have workout goals
+My MVP goal was to have seeded data, but looking at the scope of my project it will be the main webpage showing all the website can do.
+
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+
+the tools used to make my mvp will be minimal/ have a feeling i can start implementing other things when i have at least the MVP working.
+Jsx, javaScript, React, 
+
+(stretch goals API and sql or firebase)
+I wish to use the soundcloud API also so users can add certain music to the workout plan. I think that will be more of stretch goal than MVP though.
+
+
+
+
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+
+Soundcloud API so users can add music to plans.
+Possibly authentication so users can have accounts
+I think pictures for workouts wont be a problem, but possibly adding videos to the site (I have absolutely no idea how to do that so we will see)
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+Again Soundcloud API requires an API
+I haven't dabbled to far into react besides what is taught in the lessons. 
+firebase
+I've been looking into firebase quite a bit and I think implanting that will make the product able to use full CRUD which is now my stretch goal. I think if I can get the main goal up and running. I can mess around with adding a database so user can store information and possibly come back to where ever the site is hosted for them. So it can actually have some real world use.
+
+Is there anything else you'd like your instructor to know?
+Im excited to have creative control over something! I think a lot of the stuff i need to do is going to make more sense to me as I start implementing them.
+
+
 
 ____________________________________________________________________________________________________________________________
 
@@ -144,6 +183,9 @@ video to help me get more pages added
 started 
 3:58 - 4:15: thinking about interaction with my pages
 
+03/5
+https://www.youtube.com/watch?v=I2UBjN5ER4s
+
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
@@ -162,3 +204,10 @@ ___________________________________________________________
 9) figure out what the heck is going on with using the soundcloud API
 10) have the music section be interwoven with the personal page. 
 11) styling (not sure on when i should try implementing)
+
+
+#_{Goal}_
+
+#### By_**Colton Thatcher**_
+
+### _{Goal is web based app for users to keep track and obtain goals}

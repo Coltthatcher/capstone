@@ -32,7 +32,7 @@
 }
 
 .top-line {
-  color: #f00946;
+  color: #104638;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -48,15 +48,15 @@
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: orchid
+  color: rgb(54, 16, 53)
 }
 
 .dark {
-  color: blueviolet;
+  color: rgb(57, 43, 70);
 }
 
 .darkBg {
-  background-color:blueviolet ;
+  background-color:rgb(227, 220, 233) ;
 }
 
 .home__home-subtitle {
@@ -71,7 +71,7 @@
 }
 
 .home__home-img {
-  max-width: 95%;
+  max-width: 50%;
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;
@@ -81,7 +81,7 @@
 
 .img {
   border: 0;
-  max-width: 100%;
+  max-width: 50%;
   vertical-align: middle;
   display: inline-block;
 }
