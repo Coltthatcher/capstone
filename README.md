@@ -196,6 +196,8 @@ https://www.youtube.com/watch?v=Dorf8i6lCuk
 
 10:15 - 11:31: took break
 
+11:31 - 1:53: took break
+
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
@@ -206,12 +208,12 @@ https://www.youtube.com/watch?v=fVcz-1rVQcs
 ___________________________________________________________
                     TODOLIST
 
-1) Get Base site running. 80% percent done.
-2) Have seeded workout already so users can choose a list. without having to create any work outs.
-6) Create a personal plan section.
-7)Users can add a personalized list of workouts in a workout plan section.
-8)Users can access the soundcloud API to add mixes to their personal workout page.
-9) figure out what the heck is going on with using the soundcloud API
+1)  Get Base site running. almost there.
+2)  Have seeded workout already so users can choose a list. without having to create any work outs.
+6)  Create a personal plan section.
+7)  Users can add a personalized list of workouts in a workout plan section.
+8)  Users can access the soundcloud API to add mixes to their personal workout page.
+9)  figure out what the heck is going on with using the soundcloud API
 10) have the music section be interwoven with the personal page. 
 11) styling (not sure on when i should try implementing)
 
