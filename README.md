@@ -199,7 +199,7 @@ https://www.youtube.com/watch?v=fVcz-1rVQcs
 ___________________________________________________________
                     TODOLIST
 
-1) Get Base site running. 95% percent done.
+1) Get Base site running. 80% percent done.
 2) Have seeded workout already so users can choose a list. without having to create any work outs.
 6) Create a personal plan section.
 7)Users can add a personalized list of workouts in a workout plan section.
