@@ -208,6 +208,6 @@ ___________________________________________________________
 
 #_{Goal}_
 
-#### By_**Colton Thatcher**_
+#### By _**Colton Thatcher**_
 
-### _{Goal is web based app for users to keep track and obtain goals}
+### _{Goal is web based app for users to keep track and obtain goals}_
