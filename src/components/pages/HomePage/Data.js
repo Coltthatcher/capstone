@@ -33,7 +33,7 @@ export const homeObjThree={
   description: 'Soundcloud integration allows for seamless addition of music to your plans, personalization has never sounded better',
   buttonLabel: "Try It Out",
   imgStart: '',
-  img: "images/zen.icon.png",
+  img: "images/music.png",
   alt: 'flower',
 }
 
@@ -41,10 +41,10 @@ export const homeObjFour={
   lightBg:false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Workout planner',
-  headline: 'Unlimited Workouts to help your goal',
-  description: 'Get acess to thousands of workouts, full pricing allows you full acsess',
-  buttonLabel: "Get on your Goals",
+  topLine: 'Join Us',
+  headline: 'We Want You To be Part Of The Fastest Growing Personalized Workout Base',
+  description: 'Join the team set a new standard of goals',
+  buttonLabel: "Join us",
   imgStart: '',
   img: "images/zen.icon.png",
   alt: 'flower',
