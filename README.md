@@ -109,14 +109,14 @@ ________________________________________________________________________________
 
 CAPSTONE LOG (for Research Recording )
 
-Date not sure forgot to list
+(Date not sure forgot to list)
 
 start reviewing these lessons.
 https://www.learnhowtoprogram.com/react/react-fundamentals/introduction-to-state
 https://www.learnhowtoprogram.com/react/react-fundamentals/planning-our-application-part-2
 Starting at 3:14pm - 5 pm: educating myself on state more, to further plan how my project will interact component wise.
 
-Date not sure forgot to list
+(Date not sure forgot to list)
 
 5:30pm - 5:50 pm started to plan out authentication with react
 9pm - 9:45 continued to watch video
