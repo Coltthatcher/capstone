@@ -285,60 +285,24 @@ Goal is user based app which one can create personal workout plans, in a zen set
   1) Navigate to the [CAPSTONE](https://github.com/Coltthatcher/capstone).
   2) Click Clone in the upper right corner.
   3) Open up your system Terminal or GitBash.
-  4) Clone the repository to your desktop: `$ git clone https://github.com/Coltthatcher/LocalLookUp.Solution.git`
-  5) Run the command `cd LocalLookUp.Solution` to get into the project directory.
+  4) Clone the repository to your desktop: `$ git clone https://github.com/Coltthatcher/capstone`
+  5) Run the command `cd capstone` to get into the project directory.
 
-  #### AppSettings
 
-  1) Create a new file in the LocalLookUp.Solution/LocalLookUp directory named `appsettings.json`
-  2) Add in the following code to the appsettings.json file:
-
-  ```
-{
-    "Logging": {
-        "LogLevel": {
-        "Default": "Warning"
-        }
-    },
-    "AllowedHosts": "*",
-    "ConnectionStrings": {
-        "DefaultConnection": "Server=localhost;Port=3306;database=locallookup_api;uid=root;pwd=YourPassword;"
-    }
-}
-  ```
-  3) Note YourPassword should be your personal sql password.
-
-  #### Database
-  1) Navigate to LocalLookUp.Solution/LocalLookUp directory `LocalLookUp.Solution/LocalLookUp`).
-  2) Run the command `dotnet ef database update`.
-
-  #### Launch the API
-  1) Navigate to `LocalLookUp.Solution/LocalLookUp`
-  2) Run the command `dotnet run` To gain access to the browser and API
 
 ------------------------------
 
 
-### Using Swagger
-`dotnet run` select `http://localhost:5000/swagger`
+### Using site
+`npm run` 
 
 
 
 ### Endpoints
 `https://localhost:5000`
 
-#### HTTP Request Structure
-```
-GET /api/towns
-POST /api/towns
-GET /api/towns
-PUT /api/towns
-DELETE /api/towns
-```
 
-### Searching for an API
-1) When the site is up and running with `dotnet run` have the postman application open on your machine.
-2) if you wish to search for a specific restaurant enter `http://localhost:5000/api/towns?restaurant=bistro` this will return the JSON Data for that town the restaurant belongs to. Its will work vice versa with shop using the same logic.
+
 
 
 ### Acknowledgments

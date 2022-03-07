@@ -7,8 +7,8 @@ function Home() {
   return (
     <React.Fragment>
       <HomeSection {...homeObjOne} />
-      <HomeSection {...homeObjThree} />
       <HomeSection {...homeObjTwo} />
+      <HomeSection {...homeObjThree} />
       <HomeSection {...homeObjFour} />
     </React.Fragment>
   )
