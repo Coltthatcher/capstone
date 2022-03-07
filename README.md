@@ -162,15 +162,15 @@ https://www.youtube.com/watch?v=jCY6DH8F4oc
 (Date not sure forgot to list)
 11:40-12:21: watched the video
 
-
-Watching a video weather authentication is something i want to include.
-https://www.youtube.com/watch?v=9bXhf_TELP4&t=6s
 (Date not sure forgot to list)
 started 12:26 - 12:50: watched video on authentication 
+Watching a video weather authentication is something i want to include.
+https://www.youtube.com/watch?v=9bXhf_TELP4&t=6s
+
 
 
 0/2/29
-starting playlist, will need to review as i add firebase to website started 3:50 paused 4:15 resumed 5:20
+starting playlist,
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb
 3:50 - 4:15: watched video
 |area bellow playlist
