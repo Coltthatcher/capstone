@@ -110,31 +110,40 @@ ________________________________________________________________________________
 CAPSTONE LOG (for Research Recording )
 
 Date not sure forgot to list
+
 start reviewing these lessons.
 https://www.learnhowtoprogram.com/react/react-fundamentals/introduction-to-state
 https://www.learnhowtoprogram.com/react/react-fundamentals/planning-our-application-part-2
 Starting at 3:14pm - 5 pm: educating myself on state more, to further plan how my project will interact component wise.
 
 Date not sure forgot to list
+
 5:30pm - 5:50 pm started to plan out authentication with react
 9pm - 9:45 continued to watch video
 
 https://video.search.yahoo.com/search/video;_ylt=Awr9ImFOmBFiA6oAGHBXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=planning+out+your+react+website&fr2=piv-web&type=E211US714G0&fr=mcafee#id=5&vid=a62f4df2c49e702873a02e4f27fdc67a&action=view
 
-Date not sure forgot to list
+
+(Date not sure forgot to list)
+https://www.youtube.com/watch?v=LlvBzyy-558
+
+started 8:50 - 10:00pm: finished video at 10pm
+
 this video from starting seems very insightful, going to watch through. (come back to this link for study)
 https://www.youtube.com/watch?v=LlvBzyy-558
 React Hooks Course - All React Hooks Explained
-started 8:50 - 10:00pm: finished video at 10pm
 
 doing extra study to see if I wanna end implementing other features and comparing that to if I will have enough time.
 
 
-Honestly reconsidering building the structure of my website from scratch, there seem to be easier was in react then I am going about things. 
+Honestly reconsidering building the structure of my website from scratch, there seem to be easier was in react then I am going about things.
 
-Date not sure forgot to list
-started 6:40 - 8:26:
-Date not sure forgot to list 
+(Date not sure forgot to list)
+https://www.youtube.com/watch?v=I2UBjN5ER4s
+started 6:40 - 8:26
+
+
+(Date not sure forgot to list) 
 7:20 - 7:47:started first part again.
 https://www.youtube.com/watch?v=3nLTB_E6XAM&list=RDCMUCsKsymTY_4BYR-wytLjex7A&start_radio=1&rv=3nLTB_E6XAM&t=3
 
@@ -142,23 +151,25 @@ https://www.youtube.com/watch?v=3nLTB_E6XAM&list=RDCMUCsKsymTY_4BYR-wytLjex7A&st
 Redux research
 Understanding Redux and How it is Used in React Applications
 https://www.youtube.com/watch?v=Eop3E4anpL0
-Date not sure forgot to list
+
+(Date not sure forgot to list)
 7:21 - 8:32: watched video
 
 React database research
 Thinking at this point i will need to implement CRUD and in order to do so firebase will be the best way of accomplishing that. 
 https://www.youtube.com/watch?v=jCY6DH8F4oc
-Date not sure forgot to list
+
+(Date not sure forgot to list)
 11:40-12:21: watched the video
 
 
 Watching a video weather authentication is something i want to include.
 https://www.youtube.com/watch?v=9bXhf_TELP4&t=6s
-Date not sure forgot to list
+(Date not sure forgot to list)
 started 12:26 - 12:50: watched video on authentication 
 
 
-
+0/2/29
 starting playlist, will need to review as i add firebase to website started 3:50 paused 4:15 resumed 5:20
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb
 3:50 - 4:15: watched video
