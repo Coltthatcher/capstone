@@ -196,7 +196,12 @@ https://www.youtube.com/watch?v=Dorf8i6lCuk
 
 10:15 - 11:31: took break
 
-11:31 - 1:53: took break
+11:31 - 1:53: finished video going to start implementing more class components
+
+03/6
+https://www.youtube.com/watch?v=Nl54MJDR2p8
+
+2:00 - 6:00: watched another video on my project.
 
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
