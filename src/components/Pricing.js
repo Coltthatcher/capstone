@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { BsFlower3 } from 'react-icons/bs';
+import { BsFlower1, BsFlower3, BsFlower2 } from 'react-icons/bs';
 import { IconContext } from 'react-icons/lib';
 import { Button } from './Button';
 import './Pricing.css';
@@ -8,15 +8,15 @@ import './Pricing.css';
 function Pricing() {
   return (
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
-    <div>
+    
       <div className='price_section'>
         <div className='price_wrapper'>
-          <h1 className='price_heading'>Subscription Tiers</h1>
+          <h1 className='price_heading'></h1>
           <div className='price_container'>
             <Link to='/sign-up' className='pricing-container-sheet'>
               <div className='price_container-info'>
                 <div className='icon'>
-                  <BsFlower3 />
+                  <BsFlower2 />
                 </div>
                 <h3>Standard</h3>
                 <h4>$10.99</h4>
@@ -52,7 +52,7 @@ function Pricing() {
             <Link to='/sign-up' className='pricing-container-sheet'>
               <div className='price_container-info'>
                 <div className='icon'>
-                  <BsFlower3 />
+                  <BsFlower1 />
                 </div>
                 <h3>Premium</h3>
                 <h4>$15.99</h4>
@@ -70,7 +70,7 @@ function Pricing() {
           </div>
         </div>
       </div>
-    </div>
+    
     </IconContext.Provider>
   )
 }

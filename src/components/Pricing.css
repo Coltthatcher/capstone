@@ -28,6 +28,7 @@
 .price_heading {
   color: #270e31;
   margin-bottom: 24px;
+  position: center;
 }
 
 .price_container-info h3 {
@@ -65,10 +66,7 @@
   margin: 0 auto;
 }
 
-.price_heading {
-  color: #1c2237;
-  margin-bottom: 24px;
-}
+
 
 .price_container-info {
   display: flex;
