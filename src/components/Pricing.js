@@ -17,7 +17,35 @@ function Pricing() {
                 <div className='icon'>
                   <BsFlower3 />
                 </div>
-                
+                <h3>Standard</h3>
+                <h4>$10.99</h4>
+                <p>per month</p>
+                <ul className='container-tiers'>
+                  <li>Thousands of workouts</li>
+                  <li>Create Personalized Plans</li>
+                  <li>Integrated Music match</li>
+                </ul>
+                <Button buttonSize='btn--wide' buttonColor='primary'>
+                  Choose Standard
+                </Button>
+              </div>
+            </Link>
+            <Link to='/sign-up' className='pricing-container-sheet'>
+              <div className='price_container-info'>
+                <div className='icon'>
+                  <BsFlower3 />
+                </div>
+                <h3>Standard</h3>
+                <h4>$10.99</h4>
+                <p>per month</p>
+                <ul className='container-tiers'>
+                  <li>Thousands of workouts</li>
+                  <li>Create Personalized Plans</li>
+                  <li>Integrated Music match</li>
+                </ul>
+                <Button buttonSize='btn--wide' buttonColor='primary'>
+                  Choose Standard
+                </Button>
               </div>
             </Link>
           </div>
