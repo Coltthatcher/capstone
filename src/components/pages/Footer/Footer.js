@@ -66,7 +66,7 @@ function Footer() {
               GOAL
             </Link> 
           </div>
-          <small className="website-rights">GOAL @ 2022</small>
+          <small className="rights">GOAL @ 2022</small>
           <div className="social-icons">
             <Link
               className='social-icon-link'
