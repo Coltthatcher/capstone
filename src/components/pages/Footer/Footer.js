@@ -18,7 +18,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Subscribe and join GOAL
+          Subscribe To Newsletter
         </p>
         <p className='footer-subscription-text'>
           unsubscribe at any time

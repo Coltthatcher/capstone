@@ -1,59 +1,20 @@
 Colton Thatcher 
-Project-Name: Workout planner
+Project-Name: Goal
 Project's Purpose or Goal: The goal of this project is to have a space where you can set workout goals and setup a plan for yourself and how you want workouts to go.
 
 List the absolute minimum features the project requires to meet this purpose or goal:
 
 Minimum features.
-Users will be able to add new workout goals to a personalized plan
-there will be a number of workouts provided with pre coded data users can choose from and add to a workout plan page.
-My MVP goal is to only keep on the data till the browser is reloaded. So there will be a set number of workouts hardcoded into the page. my stretch goals will include adding a database with firebase.
+Goal will have a working app page, there will be a homepage, and information on how to subscribe. The sites purpose will be presented.
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
 the tools used to make my mvp will be minimal/ have a feeling i can start implementing other things when i have at least the MVP working.
-Jsx, javaScript, React, 
+Jsx, javaScript, React, React native, React Icons, Vscode, Npm, 
 
 (stretch goals API and sql or firebase)
 I wish to use the soundcloud API also so users can add certain music to the workout plan. I think that will be more of stretch goal than MVP though.
-
-
-
-
-If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
-
-Soundcloud API so users can add music to plans.
-Possibly authentication so users can have accounts
-I think pictures for workouts wont be a problem, but possibly adding videos to the site (I have absolutely no idea how to do that so we will see)
-
-What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
-Again Soundcloud API requires an API
-I haven't dabbled to far into react besides what is taught in the lessons. 
-firebase
-I've been looking into firebase quite a bit and I think implanting that will make the product able to use full CRUD which is now my stretch goal. I think if I can get the main goal up and running. I can mess around with adding a database so user can store information and possibly come back to where ever the site is hosted for them. So it can actually have some real world use.
-
-Is there anything else you'd like your instructor to know?
-Im excited to have creative control over something! I think a lot of the stuff i need to do is going to make more sense to me as I start implementing them.
-////////////
-
-
-Project-Name: Workout planner
-Project's Purpose or Goal: An app meant for pay, will have seeded workouts where one can make a personal workout list.
-
-List the absolute minimum features the project requires to meet this purpose or goal:
-
-Minimum features.
-A webpage showing app details and how to sign up so you can have workout goals
-My MVP goal was to have seeded data, but looking at the scope of my project it will be the main webpage showing all the website can do.
-
-What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
-
-the tools used to make my mvp will be minimal/ have a feeling i can start implementing other things when i have at least the MVP working.
-Jsx, javaScript, React, 
-
-(stretch goals API and sql or firebase)
-I wish to use the soundcloud API also so users can add certain music to the workout plan. I think that will be more of stretch goal than MVP though.
-
+I would like to implement the ability to sign in and out/ hold a seeded database using firebase, with the amount of work done know this is most definitely a stretch goal.
 
 
 
@@ -74,7 +35,10 @@ Im excited to have creative control over something! I think a lot of the stuff i
 
 
 
-____________________________________________________________________________________________________________________________
+
+
+
+____________________________________________________________________________________________________________________
 
 NOTES FOR CAPSTONE STUDY AND PURPOSE.
 
@@ -105,7 +69,7 @@ it will need a class component.
 
 
 
-______________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 CAPSTONE LOG (for Research Recording )
 
@@ -224,14 +188,16 @@ https://www.youtube.com/watch?v=fVcz-1rVQcs
 ___________________________________________________________
                     TODOLIST
 
-1)  Get Base site running. almost there.
+1)  Get Base site running !CHECK!
+
 2)  Have seeded workout already so users can choose a list. without having to create any work outs.
 6)  Create a personal plan section.
 7)  Users can add a personalized list of workouts in a workout plan section.
 8)  Users can access the soundcloud API to add mixes to their personal workout page.
 9)  figure out what the heck is going on with using the soundcloud API
 10) have the music section be interwoven with the personal page. 
-11) styling (not sure on when i should try implementing)
+
+11) styling (not sure on when i should try implementing) !CHECK!
 
 
 
@@ -253,11 +219,11 @@ ___________________________________________________________
 ##  About the Project
 
 ### Description
-Goal is user based app which one can create personal workout plans, in a zen setting.
+Goal is user based app which one can create personal workout plans, in a zen setting. mobile support to be included.
 
 ### Known Bugs
 
-* (fill out during the end of course)
+* Button component not rendering correctly in mobile menu
 
 ### Built With
 * Visual Studio Code
@@ -265,7 +231,10 @@ Goal is user based app which one can create personal workout plans, in a zen set
 * Npm
 * Jsx 
 * JavaScript 
-* (add more as implemented)
+* React native
+* React Icons
+* Bootstrap
+* GIT
 
 
 ------------------------------
