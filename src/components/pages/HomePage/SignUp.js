@@ -28,6 +28,14 @@ function SignUp() {
               placeholder='Password'
             />
             </div>
+            <div className='password'>
+            <input
+              className='sign-up-input'
+              name='email'
+              type='email'
+              placeholder='Confirm Password'
+            />
+            </div>
             <Button buttonStyle='btn--outline'>Sign Up</Button>
           </form>
         </div>
