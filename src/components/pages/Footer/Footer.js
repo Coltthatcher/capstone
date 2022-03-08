@@ -71,8 +71,42 @@ function Footer() {
             <Link
               className='social-icon-link'
               to='/'
+              target='_blank'
+              aria-aria-label='Facebook'
             >
-              <FaFacebook />
+            <FaFacebook />
+            </Link>
+            <Link
+              className='social-icon-link'
+              to='/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+            <FaInstagram />
+            </Link>
+            <Link
+              className='social-icon-link'
+              to='/'
+              target='_blank'
+              aria-label='Youtube'
+            >
+            <FaYoutube />
+            </Link>
+            <Link
+              className='social-icon-link'
+              to='/'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              <FaTwitter />
+            </Link>
+            <Link
+              className='social-icon-link'
+              to='/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <FaLinkedin />
             </Link>
           </div>
         </div>

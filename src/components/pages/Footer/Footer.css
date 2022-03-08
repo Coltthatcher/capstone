@@ -65,6 +65,28 @@
   box-sizing: border-box;
 }
 
+.footer-link-links h2 {
+  color: #fff;
+}
 
+.footer-link-links h2 {
+  margin-bottom: 16px;
+}
+
+
+.footer-link-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link-links a:hover {
+  color: #6134c2;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-email-form h2 {
+  margin-bottom: 2rem;
+}
 
 
