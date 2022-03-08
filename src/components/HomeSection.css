@@ -107,4 +107,8 @@
     max-width: 100%;
     flex-basis: 100%;
   }
+
+  .img {
+    max-width: 50%;
+  }
 }

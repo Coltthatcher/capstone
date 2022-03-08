@@ -20,8 +20,6 @@ export const homeObjTwo={
   description: 'Our personalized trainers, are top trained and from around the globe. They can provide personalized workout plans based on you!',
   buttonLabel: "Meet the Trainers",
   imgStart: '',
-  img: "images/fitness-runner-hi.png",
-  alt: 'Runner',
 }
 
 export const homeObjThree={
@@ -33,8 +31,7 @@ export const homeObjThree={
   description: 'Soundcloud integration allows for seamless addition of music to your plans, personalization has never sounded better',
   buttonLabel: "Try It Out",
   imgStart: '',
-  img: "images/music.png",
-  alt: 'flower',
+
 }
 
 export const homeObjFour={

@@ -33,7 +33,6 @@ export const homeObjThree={
   description: 'Soundcloud integration allows for seamless addition of music to your plans, personalization has never sounded better',
   buttonLabel: "Try It Out",
   imgStart: '',
-  img: "images/music.png",
   alt: 'flower',
 }
 
