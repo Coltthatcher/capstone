@@ -141,5 +141,21 @@
   .footer-links {
     padding-top: 2rem;
   }
+
+  .footer-input {
+    width: 100%;
+  }
+
+  .footer-link-wrapper {
+    flex-direction: column;
+  }
+
+  .social-wrap {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
 }
 
