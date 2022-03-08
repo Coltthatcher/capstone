@@ -249,7 +249,7 @@ Goal is user based app which one can create personal workout plans, in a zen set
 
 ### Setup
 
-  #### Cloning
+#### Cloning
 
   1) Navigate to the [CAPSTONE](https://github.com/Coltthatcher/capstone).
   2) Click Clone in the upper right corner.
