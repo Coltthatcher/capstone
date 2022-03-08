@@ -3,11 +3,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #fafafa;
+  background: linear-gradient(45deg, #7d12e0 0%, #9973e9 100%);
+
 }
 
-.pricing_container-sheet {
-  background: linear-gradient(45deg, #0660e9 0%, #276afb 100%);
+.pricing-container-sheet {
+  background: linear-gradient(45deg, #7c3eb6 0%, #b199e4 100%);
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
   height: 500px;
@@ -43,4 +44,96 @@
   transform: scale(1.06);
   transition: all 0.3s ease-out;
   color: #1c2237;
+}
+
+
+.price_container-sheet:nth-child(2) {
+  margin: 0 24px;
+}
+
+
+.price_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+}
+
+.price_heading {
+  color: #1c2237;
+  margin-bottom: 24px;
+}
+
+.price_container-info {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 24px;
+  align-items: center;
+  color: #fff;
+}
+
+.price_container-info h4 {
+  font-size: 40px;
+}
+
+.price_container-info p {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.container-tiers {
+  margin: 16px 0 32px;
+  list-style: none;
+}
+
+.container-tiers li {
+  margin-bottom: 10px;
+}
+
+.container-tiers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  margin: 24px 0;
+}
+
+@media screen and (max-width: 960px) {
+  .price_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .price_container-info {
+    width: 90%;
+  }
+
+  .price_wrapper {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price_container-info:nth-child(2) {
+    transform: scale(1);
+    background: #242424;
+    margin: 24px;
+  }
+
+  .price_container-info:hover {
+    transform: none;
+  }
 }
