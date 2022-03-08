@@ -32,14 +32,13 @@
 }
 
 .top-line {
-  color: #104638;
+  color: #0f4b46;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  padding-top: 50px;
 
 }
 
@@ -48,15 +47,16 @@
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: rgb(54, 16, 53)
+  color: #f7f8fa;
+
 }
 
 .dark {
-  color: rgb(57, 43, 70);
+  color: #1c2237;
 }
 
 .darkBg {
-  background-color:rgb(215, 203, 226) ;
+  background-color: #e6ccf8;
 }
 
 .home__home-subtitle {
