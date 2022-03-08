@@ -35,7 +35,15 @@ function Footer() {
           </form>
         </div>
       </section>
+      <div className="footer-links">
+        <div className="footer-link-wrapper">
+          <h2>About Goal</h2>
+          <Link to='/sign-up'>Get Started</Link>
+
+        </div>
       </div>
+    </div>
+      
       
   );
 }
