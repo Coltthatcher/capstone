@@ -49,8 +49,24 @@ function Footer() {
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
           </div>
+          <div className="footer-link-links">
+            <h2>Social Media</h2>
+            <Link to='/'>Instagram</Link>
+            <Link to='/'>Facebook</Link>
+            <Link to='/'>Youtube</Link>
+            <Link to='/'>Twitter</Link>
+          </div>
         </div>
       </div>
+      <section className="socials">
+        <div className="social-wrap">
+          <div className="footer-logo">
+            <Link to='/' className="social-logo">
+              <MdDirectionsRun className="navbar-icon" />
+            </Link> 
+          </div>
+        </div>
+      </section>
     </div>
       
       
