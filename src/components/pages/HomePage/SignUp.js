@@ -23,16 +23,16 @@ function SignUp() {
             <div className='password'>
             <input
               className='sign-up-input'
-              name='email'
-              type='email'
+              name='password'
+              type='password'
               placeholder='Password'
             />
             </div>
             <div className='password'>
             <input
               className='sign-up-input'
-              name='email'
-              type='email'
+              name='password'
+              type='password'
               placeholder='Confirm Password'
             />
             </div>
