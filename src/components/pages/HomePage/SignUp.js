@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from "../../Button";
 import  './SignUp.css';
-
+import { MdDirectionsRun } from "react-icons/md";
 
 function SignUp() {
   return (
@@ -9,10 +9,8 @@ function SignUp() {
         <div className='sign-up-container'>
       <section className='sign-up-subscription'>
         <p className='sign-up-subscription-heading'>
-          Subscribe and join GOAL
-        </p>
-        <p className='sign-up-subscription-text'>
-          unsubscribe at any time
+          Join GOAL
+          <MdDirectionsRun className="navbar-icon" />
         </p>
         <div className='sign-up-areas'>
           <form>
@@ -27,13 +25,11 @@ function SignUp() {
               className='sign-up-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Password'
             />
-            
             </div>
             <Button buttonStyle='btn--outline'>Sign Up</Button>
           </form>
-
         </div>
         </section>
         </div>
