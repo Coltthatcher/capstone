@@ -1,17 +1,31 @@
 .sign-up-container {
-
+  background: linear-gradient(45deg, #7c3eb6 0%, #b199e4 100%);
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sign-up-subscription {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #fff;
 }
 
 .sign-up-subscription-heading {
-
+  margin-bottom: 24px;
+  font-size: 24px;
 }
 
 .sign-up-subscription-text {
-
+  margin-bottom: 24px;
+  font-size: 20px;
 }
 
 .sign-up-areas {
@@ -19,5 +33,13 @@
 }
 
 .sign-up-input {
-  
+  padding: 8px 24px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+  float: left;
 }

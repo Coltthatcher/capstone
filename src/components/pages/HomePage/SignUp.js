@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from "../../Button";
-
+import  './SignUp.css';
 
 
 function SignUp() {
@@ -21,10 +21,19 @@ function SignUp() {
               name='email'
               type='email'
               placeholder='Your Email'
-              placeholder='password'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <div className='password'>
+            <input
+              className='sign-up-input'
+              name='email'
+              type='email'
+              placeholder='Your Email'
+            />
+            
+            </div>
+            <Button buttonStyle='btn--outline'>Sign Up</Button>
           </form>
+
         </div>
         </section>
         </div>
