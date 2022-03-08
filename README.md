@@ -235,6 +235,8 @@ Goal is user based app which one can create personal workout plans, in a zen set
 * React Icons
 * Bootstrap
 * GIT
+* HTML
+* NODE.js
 
 
 ------------------------------
@@ -242,37 +244,27 @@ Goal is user based app which one can create personal workout plans, in a zen set
 ## How To?
 
 
+#### Cloning
+
+1) Navigate to the [CAPSTONE](https://github.com/Coltthatcher/capstone).
+2) Click Clone in the upper right corner.
+3) Open up your system Terminal or GitBash.
+4) Clone the repository to your desktop: `$ git clone https://github.com/Coltthatcher/capstone`
+5) Run the command `cd capstone` to get into the project directory.
+
 
 ### Install NPM
-
-
+1) Install node and npm [here](https://docs.npmjs.com/cli/v7/configuring-npm/install)
+2) Type `node -v` and `npm -v` in the terminal command line to check proper installation.
+3) once project file is open run `npm install` in the terminal command line.
 
 ### Setup
 
-#### Cloning
-
-  1) Navigate to the [CAPSTONE](https://github.com/Coltthatcher/capstone).
-  2) Click Clone in the upper right corner.
-  3) Open up your system Terminal or GitBash.
-  4) Clone the repository to your desktop: `$ git clone https://github.com/Coltthatcher/capstone`
-  5) Run the command `cd capstone` to get into the project directory.
+1) Once node and npm are installed run `npm run start` in the terminal command line.
+2) Click `http://localhost:3000/` to open website.
 
 
-
-------------------------------
-
-
-### Using site
-`npm run` 
-
-
-
-### Endpoints
-`https://localhost:5000`
-
-
-
-
+__________________________________________________________________________________________
 
 ### Acknowledgments
 
