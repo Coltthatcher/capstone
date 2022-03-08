@@ -7,6 +7,7 @@ import './Pricing.css';
 
 function Pricing() {
   return (
+    <IconContext.Provider value={{ color: '#fff', size: 64 }}>
     <div>
       <div className='price_section'>
         <div className='price_wrapper'>
@@ -35,16 +36,17 @@ function Pricing() {
                 <div className='icon'>
                   <BsFlower3 />
                 </div>
-                <h3>Standard</h3>
-                <h4>$10.99</h4>
+                <h3>Premium</h3>
+                <h4>$15.99</h4>
                 <p>per month</p>
                 <ul className='container-tiers'>
                   <li>Thousands of workouts</li>
                   <li>Create Personalized Plans</li>
                   <li>Integrated Music match</li>
+                  <li>Trainers Utilization</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Choose Standard
+                <Button buttonSize='btn--wide' buttonColor='blue'>
+                  Choose Premium
                 </Button>
               </div>
             </Link>
@@ -52,6 +54,7 @@ function Pricing() {
         </div>
       </div>
     </div>
+    </IconContext.Provider>
   )
 }
 
