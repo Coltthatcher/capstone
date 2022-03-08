@@ -93,7 +93,7 @@
   }
 
   .nav-menu.active {
-    background: #8797d3;
+    background: linear-gradient(45deg, #5312e0 0%, #9973e9 100%);
     left: 0;
     opacity: 1;
     transition: all 0.6s ease;

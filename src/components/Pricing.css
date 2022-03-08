@@ -38,13 +38,13 @@
 
 .price_container-sheet:nth-child(2) {
   transform: scale(1.05);
-  background: #242424;
+  background: #32176d;
 }
 
 .price_container-info:hover {
   transform: scale(1.06);
   transition: all 0.3s ease-out;
-  color: #1c2237;
+  color: #200741;
 }
 
 

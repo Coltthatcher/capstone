@@ -41,8 +41,8 @@ function Pricing() {
                 <p>per month</p>
                 <ul className='container-tiers'>
                   <li>Thousands of workouts</li>
-                  <li>Create Personalized Plans</li>
-                  <li>Integrated Music match</li>
+                  <li>Access Trainer Profiles</li>
+                  <li>Limited Trainer Benefits</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Premium
@@ -54,16 +54,16 @@ function Pricing() {
                 <div className='icon'>
                   <BsFlower1 />
                 </div>
-                <h3>Premium</h3>
-                <h4>$15.99</h4>
+                <h3>Platinum</h3>
+                <h4>$25.99</h4>
                 <p>per month</p>
                 <ul className='container-tiers'>
                   <li>Thousands of workouts</li>
-                  <li>Create Personalized Plans</li>
-                  <li>Integrated Music match</li>
+                  <li>Access Trainer Profiles</li>
+                  <li>unlimited Trainer Benefits</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Choose Premium
+                  Choose Platinum
                 </Button>
               </div>
             </Link>
