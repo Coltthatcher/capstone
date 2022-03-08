@@ -63,7 +63,16 @@ function Footer() {
           <div className="footer-logo">
             <Link to='/' className="social-logo">
               <MdDirectionsRun className="navbar-icon" />
+              GOAL
             </Link> 
+          </div>
+          <div className="social-icons">
+            <Link
+              className='social-icon-link'
+              to='/'
+            >
+              <FaFacebook />
+            </Link>
           </div>
         </div>
       </section>
