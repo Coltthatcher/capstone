@@ -13,7 +13,7 @@ function Pricing() {
         <div className='price_wrapper'>
           <h1 className='price_heading'></h1>
           <div className='price_container'>
-            <Link to='/sign-up' className='pricing-container-sheet'>
+            <Link to='/pricing' className='pricing-container-sheet'>
               <div className='price_container-info'>
                 <div className='icon'>
                   <BsFlower2 />
@@ -31,7 +31,7 @@ function Pricing() {
                 </Button>
               </div>
             </Link>
-            <Link to='/sign-up' className='pricing-container-sheet'>
+            <Link to='/pricing' className='pricing-container-sheet'>
               <div className='price_container-info'>
                 <div className='icon'>
                   <BsFlower3 />
@@ -49,7 +49,7 @@ function Pricing() {
                 </Button>
               </div>
             </Link>
-            <Link to='/sign-up' className='pricing-container-sheet'>
+            <Link to='/pricing' className='pricing-container-sheet'>
               <div className='price_container-info'>
                 <div className='icon'>
                   <BsFlower1 />

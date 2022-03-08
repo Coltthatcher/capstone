@@ -46,3 +46,5 @@ export const homeObjFour={
   img: "images/zen.icon.png",
   alt: 'flower',
 }
+
+

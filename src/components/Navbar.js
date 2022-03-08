@@ -47,12 +47,12 @@ useEffect(() => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to ='/services' className='nav-links' onClick={closeMobileMenu} >
+              <Link to ='/workout-plans' className='nav-links' onClick={closeMobileMenu} >
                 Workout Plans
               </Link>
             </li>
             <li className="nav-item">
-              <Link to ='/products' className='nav-links' onClick={closeMobileMenu} >
+              <Link to ='/pricing' className='nav-links' onClick={closeMobileMenu} >
                 Pricing
               </Link>
             </li>
