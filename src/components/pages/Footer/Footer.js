@@ -37,9 +37,18 @@ function Footer() {
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
+          <div className="footer-link-links">
           <h2>About Goal</h2>
-          <Link to='/sign-up'>Get Started</Link>
-
+            <Link to='/sign-up'>Get Started</Link>
+            <Link to='/'>Our Story</Link>
+            <Link to='/'>How To Get Involved</Link>
+            <Link to='/'>Terms of Service</Link>
+          </div>
+          <div className="footer-link-links">
+            <h2>Contact Us</h2>
+            <Link to='/'>Contact</Link>
+            <Link to='/'>Support</Link>
+          </div>
         </div>
       </div>
     </div>

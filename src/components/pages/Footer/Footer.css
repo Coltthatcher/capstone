@@ -55,3 +55,12 @@
   display: flex;
 }
 
+.footer-link-links {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+
+
+
