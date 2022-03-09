@@ -182,6 +182,9 @@ https://www.youtube.com/watch?v=Nl54MJDR2p8
 3/9
 I will begin the implantation of firebase now, I'm going to watch some videos on how, i really don't wanna break what i have before presenting tomorrow 
 https://www.youtube.com/watch?v=zpbyJ7GVMVU
+8:30 - 8:46
+
+
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
