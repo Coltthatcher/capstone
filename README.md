@@ -204,7 +204,7 @@ ___________________________________________________________
 
 <br>
 <p align="center">
-  <u><big><b>Goal</b></big></u>
+  <u><big><b>GOAL</b></big></u>
 </p>
 
    
@@ -262,6 +262,11 @@ Goal is user based app which one can create personal workout plans, in a zen set
 
 1) Once node and npm are installed run `npm run start` in the terminal command line.
 2) Click `http://localhost:3000/` to open website.
+
+
+### What's next?
+
+
 
 
 __________________________________________________________________________________________

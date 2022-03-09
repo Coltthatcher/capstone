@@ -4,7 +4,7 @@ export const homeObjOne={
   lightTextDesc: true,
   topLine: 'Workout planner',
   headline: 'Unlimited Workouts to help your goal',
-  description: 'Get access to thousands of workouts. Mix match and plan new or known techniques to a personalized list allowing complete user creativity to accomplish your goals',
+  description: 'Get access to thousands of workouts. Mix match and plan new or known techniques to a personalized list allowing complete user creativity to accomplish your goals.',
   buttonLabel: "Get on your Goals",
   imgStart: '',
   img: "images/zen.icon.png",

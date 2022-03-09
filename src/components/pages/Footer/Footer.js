@@ -8,6 +8,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
+import { AiFillApple } from 'react-icons/ai'
 import { MdDirectionsRun } from "react-icons/md";
 import './Footer.css';
 
@@ -107,6 +108,14 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <FaLinkedin />
+            </Link>
+            <Link
+              className='social-icon-link'
+              to='/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <AiFillApple />
             </Link>
           </div>
         </div>

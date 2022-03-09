@@ -1,5 +1,5 @@
 :root {
-  --primary: #fff;
+  --primary: rgb(115, 53, 216);
 }
 
 .btn {
@@ -15,6 +15,7 @@
   background-color: var(--primary);
   color: #795799;
   border: 1px solid var(--primary);
+  outline: #fff;
 }
 
 .btn--outline {
@@ -38,11 +39,11 @@
 .btn--mobile {
   text-align: center;
   border-radius: 4px;
-  width: 100%;
+  width: 50%;
   text-decoration: none;
   font-size: 24px;
   background-color: transparent;
-  color: #fff;
+  color: rgb(96, 31, 202);
   padding: 14px 20px;
   border: 1px solid #fff;
   transition: all 0.3s ease-out;
@@ -50,8 +51,10 @@
 
 
 .btn--wide {
-  padding: 12px 64px;
+  padding: 20px 64px;
   font-size: 20px;
+  align-items: center;
+
 }
 
 
@@ -62,8 +65,8 @@
 }
 
 .btn-wide:hover{
-  color: #fff;
-  background-color: #8009f0;
+  color: #1c0849;
+  background-color: linear-gradient(45deg, #1c0849 0%, #c7b4f0 100%);
   transition: all 0.3s ease-out;
 }
 
@@ -72,15 +75,15 @@
 
 
 .primary {
-  background-color: #6818bd;
+  background-color: linear-gradient(45deg, #38187c 0%, #e3deec 100%);
   color: #fff;
   border: none;
 
 }
 
 .primary:hover {
-  background-color: #fff;
-  color: #242424;
+  background-color: linear-gradient(45deg, #251053 0%, #3c2485 100%);
+  color: #2f1052;
   border: none;
 }
 
@@ -89,6 +92,7 @@
   color: #fff;
   border: none;
 }
+
 
 
 .green:hover {
