@@ -43,7 +43,7 @@
   text-decoration: none;
   font-size: 24px;
   background-color: transparent;
-  color: rgb(96, 31, 202);
+  color: rgb(40, 13, 83);
   padding: 14px 20px;
   border: 1px solid #fff;
   transition: all 0.3s ease-out;
@@ -75,7 +75,7 @@
 
 
 .primary {
-  background-color: linear-gradient(45deg, #38187c 0%, #e3deec 100%);
+  background-color: linear-gradient(45deg, #38187c 0%, #ecdee1 100%);
   color: #fff;
   border: none;
 
