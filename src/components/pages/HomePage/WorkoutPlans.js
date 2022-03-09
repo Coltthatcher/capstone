@@ -1,7 +1,11 @@
-
+import { useState } from "react";
 import React from 'react'
+import {useHistory, useParams} from 'react-router-dom';
+import { db } from "../firebase";
 
-function WorkoutPlans() {
+const WorkoutPlans = () => {
+  const [title, setTitle] = useState("");
+
   return (
     <React.Fragment>
     <div className='workout_section'>
