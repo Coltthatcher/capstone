@@ -1,11 +1,18 @@
-import React from 'react'
-import HomeSection from '../../HomeSection'
-import {homeObjOne, homeObjThree, homeObjTwo, homeObjFour} from './Data'
+
 import React from 'react'
 
 function WorkoutPlans() {
   return (
-    <div>WorkoutPlans</div>
+    <React.Fragment>
+    <div className='workout_section'>
+      <div className='workout_wrapper'>
+        <div className='workout_container'>
+          <div className='col'>
+            </div>
+          </div>
+        </div>
+    </div>
+    </React.Fragment>
   )
 }
 

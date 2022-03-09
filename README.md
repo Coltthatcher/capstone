@@ -244,6 +244,7 @@ Goal is user based app which one can create personal workout plans, in a zen set
 * GIT
 * HTML
 * NODE.js
+* Firebase
 
 
 ------------------------------
