@@ -187,7 +187,8 @@ https://www.youtube.com/watch?v=zpbyJ7GVMVU
 3/9
 https://www.youtube.com/watch?v=zEdI9L1MZU8
 auth added but in order to get workout database working i need to check some examples.
-started 11:00
+started 11:00 -12:00
+took break 12:00
 
 
 
