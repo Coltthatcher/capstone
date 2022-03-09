@@ -56,10 +56,12 @@ function SignUp() {
               className='sign-up-input'
               name='password'
               type='password'
-              placeholder='Confirm Password'
+              placeholder='Confirm Password' onChange={(event) => {
+                setRegisterPassword(event.target.value);
+              }}
             />
             </div>
-            <Button buttonStyle='btn--outline'>Sign Up</Button>
+            <Button onClick={register} buttonStyle='btn--outline'>Sign Up</Button>
           </form>
         </div>
         </section>
