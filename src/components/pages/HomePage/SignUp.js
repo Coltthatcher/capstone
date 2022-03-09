@@ -2,8 +2,21 @@ import React from 'react'
 import { Button } from "../../Button";
 import  './SignUp.css';
 import { MdDirectionsRun } from "react-icons/md";
+import {createUserWithEmailAndPassword} from 'firebase/auth'
+
+
 
 function SignUp() {
+
+  const [registerEmail, setRegisterEmail] = useState('');
+  const [registerPassword, setRegisterPassword] = useState('');
+
+  const register = async () => {
+
+    const user = await createUserWithEmailAndPassword()
+  };
+
+
   return (
     <React.Fragment>
         <div className='sign-up-container'>
@@ -18,14 +31,18 @@ function SignUp() {
               className='sign-up-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Your Email' onChange={(event) => {
+                setRegisterEmail(event.target.value);
+              }}
             />
             <div className='password'>
             <input
               className='sign-up-input'
               name='password'
               type='password'
-              placeholder='Password'
+              placeholder='Password' onChange={(event) => {
+                setRegisterPassword(event.target.value);
+              }}
             />
             </div>
             <div className='password'>
