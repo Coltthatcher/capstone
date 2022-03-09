@@ -191,6 +191,9 @@ started 11:00 -12:00
 took break: 12:00 - 2:00 
 2:00-3:00: finished video going to try implementing my database now
 
+3/9
+messing around with data base in firebase
+3:00-
 
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
