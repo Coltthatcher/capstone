@@ -3,18 +3,24 @@ import { Button } from "../../Button";
 import  './SignUp.css';
 import { MdDirectionsRun } from "react-icons/md";
 import {createUserWithEmailAndPassword} from 'firebase/auth'
+import {auth} from './firebase-config'
+import { useState } from "react";
 
 
 
 function SignUp() {
 
-  const [registerEmail, setRegisterEmail] = useState('');
-  const [registerPassword, setRegisterPassword] = useState('');
+  const [registerEmail, setRegisterEmail] = useState("");
+  const [registerPassword, setRegisterPassword] = useState("");
 
   const register = async () => {
-
-    const user = await createUserWithEmailAndPassword()
-  };
+    try {
+    const user = await createUserWithEmailAndPassword(auth, registerEmail, registerPassword )
+    console.log(user)
+    } catch (error) {
+    console.log(error.message);
+  }
+};
 
 
   return (
