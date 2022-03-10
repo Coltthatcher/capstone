@@ -3,6 +3,7 @@ import React from 'react'
 import { db } from "./firebase-config";
 import { collection, getDocs } from "firebase/firestore";
 import "./WorkoutPlans.css"
+import { Button } from "../../Button";
 
 
 const WorkoutPlans = () => {
@@ -23,26 +24,26 @@ const WorkoutPlans = () => {
         <div className='workout_container'>
           <div className='columns'>
             <div className="workouts">
+              
               {workouts.map((workouts) => {
                 return (
                   <div>
                     {" "}
-                  <div className="col">
-                  <h1>Name: {workouts.name}</h1>
-                  </div>
-                  <div className="col2">
+                    <div className="col">
+                    <h1>Name: {workouts.name}</h1>
+                    </div>
+                    <div className="col2">
                     <h1>Muscle-Group: {workouts.group}</h1>
-                  </div>
-                  <div className="col3">
+                    </div>
+                    <div className="col3">
                     <h1>Description: {workouts.description}</h1>
-                  </div>
-                  
+                    </div>
+                    <Button buttonSize='btn--large'>Create New Workout</Button>
                   </div>
                 )
               })}
             </div>
           </div>
-          
         </div>
       </div>
     </div>
