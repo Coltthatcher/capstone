@@ -5,7 +5,10 @@ Project's Purpose or Goal: The goal of this project is to have a space where you
 List the absolute minimum features the project requires to meet this purpose or goal:
 
 Minimum features.
-Goal will have a working app page, there will be a homepage, and information on how to subscribe. The sites purpose will be presented.
+Goal will have a working app page, there will be a homepage, and information on how to subscribe. The sites purpose will be presented. Users will be able to add personalized workouts to personalized plan or choose from seeded workouts.
+Original plan was to just have information disappear and not have a database, but as the project progressed i realized i wanted one to actually make a useable product.
+
+
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
@@ -241,6 +244,9 @@ Goal is user based app which one can create personal workout plans, in a zen set
 ### Known Bugs
 
 * Button component not rendering correctly in mobile menu
+* Workout planner page is a hot mess
+
+
 
 ### Built With
 * Visual Studio Code
@@ -280,11 +286,18 @@ Goal is user based app which one can create personal workout plans, in a zen set
 
 1) Once node and npm are installed run `npm run start` in the terminal command line.
 2) Click `http://localhost:3000/` to open website.
+3) Navigate through pages using the navbar or mobile menu.
+4) Install react icons `npm install react-icons --save`
+
 
 
 ### What's next?
 
-
+1) finish workout section, it should be accessed only when a user signs in.
+2) have database of seeded workout with images/ instructions. ability to add workouts to personal plan page.
+3) Soundcloud Api (never got around to it :/ )
+4) css of workout page is hot hot hot hot mess.
+3) Finishing touches, I'd say final product is 60% done
 
 
 __________________________________________________________________________________________
