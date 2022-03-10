@@ -38,6 +38,9 @@ const WorkoutPlans = () => {
                     <div className="col3">
                     <h1>Description: {workouts.description}</h1>
                     </div>
+                    <input placeholder="Name..." />
+                    <input placeholder="Name..." />
+                    <input placeholder="Name..." />
                     <Button buttonSize='btn--large'>Create New Workout</Button>
                   </div>
                 )
