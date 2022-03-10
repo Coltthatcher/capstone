@@ -1,0 +1,41 @@
+.workout_section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  background: linear-gradient(45deg, #a153eb 0%, #9973e9 100%);
+}
+
+.workout_wrapper {
+
+}
+
+.workout_container {
+
+}
+
+.columns {
+
+
+}
+
+.col{
+
+}
+
+.col2 {
+  padding: 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.col3 {
+  padding: 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.workouts {
+
+}
