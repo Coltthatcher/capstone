@@ -54,7 +54,11 @@ const WorkoutPlans = () => {
                       setNewName(event.target.value)
                       }}
                       />
-                    <input placeholder="Name..." />
+                    <input placeholder="Name..."
+                    onChange={(event) => {
+                    setNewGroup(event.target.value)
+                    }}
+                    />
                     <input placeholder="Name..." />
                     <Button onClick={createWorkout} buttonSize='btn--large'>Create New Workout</Button>
                   </div>
