@@ -1,13 +1,19 @@
 import { useState, useEffect } from "react";
 import React from 'react'
-import {useHistory, useParams} from 'react-router-dom';
 import { db } from "./firebase-config";
+import { collection, getDocs } from "firebase/firestore";
+
 
 const WorkoutPlans = () => {
   const [workouts, setWorkouts ] = useState([]);
-  
+  const usersCollectionRef = collection(db, "workouts")
   useEffect(() => {
-    
+
+    const getWorkouts = async () => {
+        const data = await getDocs(usersCollectionRef)
+        setWorkouts(data.docs.map((doc) => ({...doc.data(), id: doc.id})))
+    }
+    getWorkouts();
   }, [])
   return (
     <React.Fragment>
@@ -15,6 +21,7 @@ const WorkoutPlans = () => {
       <div className='workout_wrapper'>
         <div className='workout_container'>
           <div className='col'>
+            <div className="workouts">{workouts.map}</div>
             </div>
           </div>
         </div>
