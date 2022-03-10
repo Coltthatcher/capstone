@@ -21,7 +21,17 @@ const WorkoutPlans = () => {
       <div className='workout_wrapper'>
         <div className='workout_container'>
           <div className='col'>
-            <div className="workouts">{workouts.map}</div>
+            <div className="workouts">
+              {workouts.map((workouts) => {
+                return (
+                  <div>
+                    {" "}
+                  <h1>Name: {workouts.name}</h1>
+                  <h1>Muscle-Group: {workouts.group}</h1>
+                  </div>
+                )
+              })}
+            </div>
             </div>
           </div>
         </div>
