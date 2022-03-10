@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import React from 'react'
 import { db } from "./firebase-config";
-import { collection, getDocs, addDoc } from "firebase/firestore";
+import { collection, getDocs, addDoc, updateDoc, doc } from "firebase/firestore";
 import "./WorkoutPlans.css"
 import { Button } from "../../Button";
 
@@ -19,6 +19,16 @@ const WorkoutPlans = () => {
   const createWorkout = async () => {
     await addDoc(usersCollectionRef, {name: newName, group: newGroup, description: newDescription})
   }
+
+  /*
+  buttonSize='btn--large'>Create New Workout</Button>
+  const updateWorkout = async (id, name, group, description ) => {
+    const workoutDoc = doc(db, "workouts", id)
+    const newData = {name: name, group: group, description: description }
+    await updateDoc(workoutDoc, newData)
+    console.log(newData)
+    console.log(updateWorkout)
+  }*/
 
   useEffect(() => {
 
@@ -65,6 +75,7 @@ const WorkoutPlans = () => {
                       }}
                     />
                     <Button onClick={createWorkout} buttonSize='btn--large'>Create New Workout</Button>
+                    
                   </div>
                 )
               })}
