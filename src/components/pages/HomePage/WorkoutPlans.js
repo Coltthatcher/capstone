@@ -7,8 +7,13 @@ import { Button } from "../../Button";
 
 
 const WorkoutPlans = () => {
+
   const [workouts, setWorkouts ] = useState([]);
   const usersCollectionRef = collection(db, "workouts")
+  const createWorkout = async () => {
+
+  }
+
   useEffect(() => {
 
     const getWorkouts = async () => {
@@ -30,18 +35,18 @@ const WorkoutPlans = () => {
                   <div>
                     {" "}
                     <div className="col">
-                    <h1>Name: {workouts.name}</h1>
+                      <h1>Name: {workouts.name}</h1>
                     </div>
                     <div className="col2">
-                    <h1>Muscle-Group: {workouts.group}</h1>
+                      <h1>Muscle-Group: {workouts.group}</h1>
                     </div>
                     <div className="col3">
-                    <h1>Description: {workouts.description}</h1>
+                      <h1>Description: {workouts.description}</h1>
                     </div>
                     <input placeholder="Name..." />
                     <input placeholder="Name..." />
                     <input placeholder="Name..." />
-                    <Button buttonSize='btn--large'>Create New Workout</Button>
+                    <Button onClick={createWorkout} buttonSize='btn--large'>Create New Workout</Button>
                   </div>
                 )
               })}
