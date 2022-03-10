@@ -40,7 +40,7 @@ const WorkoutPlans = () => {
                 return (
                   <div>
                     {" "}
-                    <div className="col">
+                    <div className="col1">
                       <h1>Name: {workouts.name}</h1>
                     </div>
                     <div className="col2">
@@ -54,12 +54,16 @@ const WorkoutPlans = () => {
                       setNewName(event.target.value)
                       }}
                       />
-                    <input placeholder="Name..."
+                    <input placeholder="Muscle-group..."
                     onChange={(event) => {
                     setNewGroup(event.target.value)
                     }}
                     />
-                    <input placeholder="Name..." />
+                    <input placeholder="Description..."
+                    onChange={(event) => {
+                      setNewDescription(event.target.value)
+                      }}
+                    />
                     <Button onClick={createWorkout} buttonSize='btn--large'>Create New Workout</Button>
                   </div>
                 )
