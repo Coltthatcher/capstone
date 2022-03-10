@@ -1,17 +1,23 @@
 import { useState, useEffect } from "react";
 import React from 'react'
 import { db } from "./firebase-config";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs, addDoc } from "firebase/firestore";
 import "./WorkoutPlans.css"
 import { Button } from "../../Button";
 
 
 const WorkoutPlans = () => {
 
+  const [newName, setNewName] = useState("")
+  const [newGroup, setNewGroup] = useState("")
+  const [newDescription, setNewDescription] = useState("")
+
   const [workouts, setWorkouts ] = useState([]);
   const usersCollectionRef = collection(db, "workouts")
+  
+  
   const createWorkout = async () => {
-
+    await addDoc(usersCollectionRef, {name: newName, group: newGroup, description: newDescription})
   }
 
   useEffect(() => {
@@ -43,7 +49,11 @@ const WorkoutPlans = () => {
                     <div className="col3">
                       <h1>Description: {workouts.description}</h1>
                     </div>
-                    <input placeholder="Name..." />
+                    <input placeholder="Name..." 
+                    onChange={(event) => {
+                      setNewName(event.target.value)
+                      }}
+                      />
                     <input placeholder="Name..." />
                     <input placeholder="Name..." />
                     <Button onClick={createWorkout} buttonSize='btn--large'>Create New Workout</Button>
