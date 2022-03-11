@@ -20,15 +20,15 @@ const WorkoutPlans = () => {
     await addDoc(usersCollectionRef, {name: newName, group: newGroup, description: newDescription})
   }
 
-  /*
-  buttonSize='btn--large'>Create New Workout</Button>
+  
+ 
   const updateWorkout = async (id, name, group, description ) => {
     const workoutDoc = doc(db, "workouts", id)
     const newData = {name: name, group: group, description: description }
     await updateDoc(workoutDoc, newData)
     console.log(newData)
     console.log(updateWorkout)
-  }*/
+  }
 
   useEffect(() => {
 
@@ -75,7 +75,7 @@ const WorkoutPlans = () => {
                       }}
                     />
                     <Button onClick={createWorkout} buttonSize='btn--large'>Create New Workout</Button>
-                    
+                    <Button buttonSize='btn--large'>Create New Workout</Button>
                   </div>
                 )
               })}
