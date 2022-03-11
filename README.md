@@ -258,7 +258,6 @@ Goal is user based app which one can create personal workout plans, in a zen set
 * Npm
 * Jsx 
 * JavaScript 
-* React native
 * React Icons
 * Bootstrap
 * GIT
