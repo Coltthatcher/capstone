@@ -37,6 +37,8 @@ const WorkoutPlans = () => {
     }
     getWorkouts();
   }, [])
+
+  
   return (
     <React.Fragment>
     <div className='workout_section'>
