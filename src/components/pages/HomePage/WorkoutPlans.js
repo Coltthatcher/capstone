@@ -27,7 +27,6 @@ const WorkoutPlans = () => {
     const newData = {name: name, group: group, description: description }
     await updateDoc(workoutDoc, newData)
     console.log(newData)
-    console.log(updateWorkout)
   }
 
   useEffect(() => {
