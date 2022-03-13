@@ -21,7 +21,7 @@ const WorkoutPlans = () => {
   }
 
   
- 
+
   const updateWorkout = async (id, name, group, description ) => {
     const workoutDoc = doc(db, "workouts", id)
     const newData = {name: name, group: group, description: description }
@@ -75,7 +75,7 @@ const WorkoutPlans = () => {
                       }}
                     />
                     <Button onClick={createWorkout} buttonSize='btn--large'>Create New Workout</Button>
-                    <Button buttonSize='btn--large'>Create New Workout</Button>
+                    <Button onClick={updateWorkout}buttonSize='btn--large'>Create New Workout</Button>
                   </div>
                 )
               })}
