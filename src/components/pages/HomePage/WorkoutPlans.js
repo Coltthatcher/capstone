@@ -26,6 +26,7 @@ const WorkoutPlans = () => {
     const workoutDoc = doc(db, "workouts", id)
     const newData = {name: name, group: group, description: description }
     await updateDoc(workoutDoc, newData)
+    console.log(workoutDoc)
   }
 
   useEffect(() => {
@@ -65,6 +66,10 @@ const WorkoutPlans = () => {
                     <input placeholder="Muscle-group..."
                     onChange={(event) => {
                     setNewGroup(event.target.value)
+                    }}
+                    onClick={(event) => {
+                      updateDoc(event.target.value)
+                      console.log(updateDoc)
                     }}
                     />
                     <input placeholder="Description..."
