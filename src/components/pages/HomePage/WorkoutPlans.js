@@ -26,7 +26,6 @@ const WorkoutPlans = () => {
     const workoutDoc = doc(db, "workouts", id)
     const newData = {name: name, group: group, description: description }
     await updateDoc(workoutDoc, newData)
-    console.log(newData)
   }
 
   useEffect(() => {
