@@ -81,7 +81,7 @@ const WorkoutPlans = () => {
                     />
                     <Button onClick={createWorkout} buttonSize='btn--large'>Create New Workout</Button>
                     <Button onClick={updateWorkout}buttonSize='btn--large'>Create New Workout</Button>
-                    
+                    /<Button onClick={updateWorkout}buttonSize='btn--large'>Create New Workout</Button>/
                   </div>
                 )
               })}
