@@ -1,0 +1,11 @@
+.wrapper-personal {
+  display: flex block;
+  flex-direction: column-reverse;
+  background-color: cornflowerblue;
+  background: dodgerblue;
+  font-size: 10px;
+}
+
+.add-column {
+  display: flex right;
+}
