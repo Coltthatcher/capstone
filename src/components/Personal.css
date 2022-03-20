@@ -1,22 +1,39 @@
 .wrapper-personal {
   display: flex;
-  background-color: cornflowerblue;
   font-size: 10px;
+  justify-content: space-between;
 
 }
 
-.personal_section {
+.personal_heading {
 display: flex;
 text-align: center;
 justify-content: center ;
-
 }
 
+.personal-plan1 {
+justify-content: left;
+flex-direction: column;
+height: 500px;
+padding: 24px;
+align-items: center;
+display: flex;
+}
 
+.personal-plan2 {
+  justify-content: center;
+  display: flex;
+  font-size: 10px;
+}
+
+.personal-plan3 {
+  justify-content: right;
+  display: flex;
+  font-size: 10px;
+}
 
 .h2 {
   display: flex;
   margin-left: 20px;
-
 }
 
