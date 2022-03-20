@@ -4,6 +4,9 @@ function Personal() {
   return (
     <div>Personal
       <div>
+        <ul>
+          This will be the personal page
+        </ul>
       </div>
     </div>
   )
