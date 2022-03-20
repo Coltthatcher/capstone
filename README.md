@@ -202,6 +202,10 @@ messing around with data base in firebase
 https://video.search.yahoo.com/search/video;_ylt=Awr9NVUDUSpieEMAWDn7w8QF;_ylu=c2VjA3NlYXJjaAR2dGlkAw--;_ylc=X1MDOTY3ODEzMDcEX3IDMgRhY3RuA2NsawRjc3JjcHZpZANkaHRNVXpFd0xqSnlpa1lqWUtiNF9RRi5OamN1TVFBQUFBQXlxNzhOBGZyA21jYWZlZQRmcjIDc2EtZ3AEZ3ByaWQDZzZQQ0xPMXhSbzZiMUprRG1GTFZlQQRuX3JzbHQDNjAEbl9zdWdnAzAEb3JpZ2luA3ZpZGVvLnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMEcXN0cmwDNDYEcXVlcnkDdXBkYXRlJTIwZmlyZWJhc2UlMjBkYXRhYmFzZSUyMHR1dG9yaWFsJTIwMjAyMgR0X3N0bXADMTY0Njk0MDQ0MA--?p=update+firebase+database+tutorial+2022&ei=UTF-8&fr2=p%3As%2Cv%3Av%2Cm%3Asa&fr=mcafee#id=18&vid=ce9111fc151acd2608d6d724101d9db5&action=view
 11:20-12:20 : Reviewing some new sources for updating my project database
 
+3/20
+https://www.youtube.com/watch?v=re3OIOr9dJI
+11:15  12:15- followed along with separate project i think im going to not use firebase for the workout plans.
+
 
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
