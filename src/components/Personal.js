@@ -3,22 +3,17 @@ import'./Personal.css'
 
 function Personal() {
   return (
-      <div className='wrapper-personal'>
-        <div className='add-column'>
-        <h1>
-          Welcome to personal workout hub!
-        </h1>
-          <p>
-            Here you can add workouts to your plan, listen to music. Get on your goals!
-          </p>
-        <div className='music-column'>
-          Soundcloud Connection
-        </div>
-        
-        
-        
+ 
+  <div className='wrapper-personal'>
+  <div className='Tittle'> Personal Hub
+  </div>
+      <div className='add-column'>
+          <h2>
+            Add workouts to plans
+          </h2>
       </div>
-      </div>
+    </div>
+  
   )
 }
 
