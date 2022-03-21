@@ -1,7 +1,15 @@
 .wrapper-personal {
   display: flex;
-  font-size: 10px;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+}
+.personal_section {
+  padding: 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(45deg, #7d12e0 0%, #9973e9 100%);
 
 }
 
@@ -20,16 +28,18 @@ align-items: center;
 display: flex;
 }
 
-.personal-plan2 {
-  justify-content: center;
-  display: flex;
-  font-size: 10px;
+.workout-plans-sheet {
+  background: linear-gradient(45deg, #7c3eb6 0%, #b199e4 100%);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  width: 280px;
+  height: 500px;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
-.personal-plan3 {
-  justify-content: right;
-  display: flex;
-  font-size: 10px;
+.workout-plans-sheet:nth-child(2) {
+  transform: scale(1.05);
+  background: #32176d;
 }
 
 .h2 {

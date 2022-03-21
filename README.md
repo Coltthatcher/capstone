@@ -207,6 +207,10 @@ https://www.youtube.com/watch?v=re3OIOr9dJI
 11:15  12:15- followed along with separate project i think im going to not use firebase for the workout plans.
 
 
+3/20
+https://video.search.yahoo.com/search/video?fr=mcafee&fr2=piv-web&p=css+flex+tutorial&type=E211US714G0&.bcrumb=dMzJ0YNOn4p,1647813777&fr2=p%3As%2Cv%3Av&save=0#id=61&vid=93d2d348cb2ef577ee4d77fe5ca38136&action=view
+3:04 - 4:45 : revisiting css for my project, had used flex box previously but trying to get it to do something different so I would like a better understanding of it.
+
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
 
