@@ -211,6 +211,12 @@ https://www.youtube.com/watch?v=re3OIOr9dJI
 https://video.search.yahoo.com/search/video?fr=mcafee&fr2=piv-web&p=css+flex+tutorial&type=E211US714G0&.bcrumb=dMzJ0YNOn4p,1647813777&fr2=p%3As%2Cv%3Av&save=0#id=61&vid=93d2d348cb2ef577ee4d77fe5ca38136&action=view
 3:04 - 4:45 : revisiting css for my project, had used flex box previously but trying to get it to do something different so I would like a better understanding of it.
 
+3/27
+https://video.search.yahoo.com/search/video?fr=mcafee&ei=UTF-8&p=long+react+tutorial+2022&type=E211US714G0#id=2&vid=7b65d243456222a7051814515368521e&action=click
+will become react master
+8:00 - 12:10 started video working along with fresh project so i don't mess what i have. really wanna get this site fleshed out.
+
+
 React API research (LOOK INTO THIS BEFORE 2/25/22)
 
 
